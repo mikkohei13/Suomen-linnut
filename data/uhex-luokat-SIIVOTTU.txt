@@ -1,0 +1,251 @@
+FI	Genus	Species	Luokka2015	Luokka2010	Luokka2000	Yks2015	Min2015	Max2015	Avg2015	CHECKYKS
+Kaakkuri	Gavia	stellata	LC	NT	NT	1500-3000	1500	3000	2250	
+Kuikka	Gavia	arctica	LC	LC	LC	24000-26000	24000	26000	25000	
+Pikku-uikku	Tachybaptus	ruficollis	EN	VU	NE	2-40	2	40	21	
+Silkkiuikku	Podiceps	cristatus	NT	LC	LC	56000-74000	56000	74000	65000	
+Härkälintu	Podiceps	grisegena	LC	LC	LC	12000-18800	12000	18800	15400	
+Mustakurkku-uikku	Podiceps	auritus	EN	VU	LC	3000-6600	3000	6600	4800	
+Merimetso	Phalacrocorax	carbo	LC	LC	NE	40000-48000	40000	48000	44000	
+Kaulushaikara	Botaurus	stellaris	LC	LC	NT	2000-3000	2000	3000	2500	
+Harmaahaikara	Ardea	cinerea	LC	LC	LC	1400-2000	1400	2000	1700	
+Kyhmyjoutsen	Cygnus	olor	LC	LC	LC	22400-33800	22400	33800	28100	
+Laulujoutsen	Cygnus	cygnus	LC	LC	LC	17000-22000	17000	22000	19500	
+Metsähanhi	Anser	fabalis	VU	NT	NT	2000-5000	2000	5000	3500	
+Kiljuhanhi	Anser	erythropus	CR	CR	CR	0-10	0	10	5	
+Merihanhi	Anser	anser	LC	LC	LC	5600-9000	5600	9000	7300	
+Kanadanhanhi	Branta	canadensis	NA	NA	NE	14000-16000	14000	16000	15000	
+Valkoposkihanhi	Branta	leucopsis	LC	LC	NE	7600-10000	7600	10000	8800	
+Ristisorsa	Tadorna	tadorna	VU	VU	NT	500-800	500	800	650	
+Haapana	Anas	penelope	VU	LC	LC	100000-166000	100000	166000	133000	
+Harmaasorsa	Anas	strepera	LC	LC	LC	1000-2000	1000	2000	1500	
+Tavi	Anas	crecca	LC	LC	LC	300000-500000	300000	500000	400000	
+Sinisorsa	Anas	platyrhynchos	LC	LC	LC	400000-440000	400000	440000	420000	
+Jouhisorsa	Anas	acuta	EN	VU	LC	16000-32000	16000	32000	24000	
+Heinätavi	Anas	querquedula	EN	VU	LC	2600-9800	2600	9800	6200	
+Lapasorsa	Anas	clypeata	LC	LC	LC	22000-36000	22000	36000	29000	
+Punasotka	Aythya	ferina	EN	VU	LC	20000-32000	20000	32000	26000	
+Tukkasotka	Aythya	fuligula	EN	VU	LC	80000-120000	80000	120000	100000	
+Lapasotka	Aythya	marila	EN	EN	VU	800-1200	800	1200	1000	
+Haahka	Somateria	mollissima	VU	NT	LC	188000-265200	188000	265200	226600	
+Alli	Clangula	hyemalis	NT	LC	LC	3000-4000	3000	4000	3500	
+Mustalintu	Melanitta	nigra	LC	LC	NT	2000-4000	2000	4000	3000	
+Pilkkasiipi	Melanitta	fusca	EN	NT	LC	7200-23600	7200	23600	15400	
+Telkkä	Bucephala	clangula	LC	LC	LC	380000-500000	380000	500000	440000	
+Uivelo	Mergellus	albellus	LC	LC	LC	4000-11000	4000	11000	7500	
+Tukkakoskelo	Mergus	serrator	EN	NT	LC	50000-70000	50000	70000	60000	
+Isokoskelo	Mergus	merganser	VU	NT	LC	40000-60000	40000	60000	50000	
+Mehiläishaukka	Pernis	apivorus	EN	VU	NT	3100	3100		3100	
+Haarahaukka	Milvus	migrans	CR	CR	EN	30-40	30	40	35	
+Merikotka	Haliaeetus	albicilla	VU	VU	VU	958	958		958	
+Ruskosuohaukka	Circus	aeruginosus	LC	LC	NT	2000	2000		2000	
+Sinisuohaukka	Circus	cyaneus	VU	VU	NT	2900	2900		2900	
+Arosuohaukka	Circus	macrourus	EN	NA		2-20	2	20	11	
+Niittysuohaukka	Circus	pygargus	EN	EN	NE	2-18	2	18	10	
+Kanahaukka	Accipiter	gentilis	NT	LC	LC	8600	8600		8600	
+Varpushaukka	Accipiter	nisus	LC	LC	LC	11000	11000		11000	
+Hiirihaukka	Buteo	buteo	VU	VU	LC	6100	6100		6100	
+Piekana	Buteo	lagopus	EN	LC	LC	380	380		380	
+Kiljukotka	Aquila	clanga	CR	CR	RE	0-2	0	2	1	
+Maakotka	Aquila	chrysaetos	VU	VU	VU	700-700	700	700	700	
+Sääksi	Pandion	haliaetus	LC	NT	NT	1300	1300		1300	300
+Tuulihaukka	Falco	tinnunculus	LC	LC	NT	14000	14000		14000	0
+Punajalkahaukka	Falco	vespertinus	NA	NA						
+Ampuhaukka	Falco	columbarius	LC	LC	VU	6900	6900		6900	900
+Nuolihaukka	Falco	subbuteo	LC	LC	LC	6000	6000		6000	0
+Tunturihaukka	Falco	rusticolus	CR	EN	EN	64-64	64	64	64	
+Muuttohaukka	Falco	peregrinus	VU	VU	EN	388-388	388	388	388	
+Pyy	Bonasa	bonasia	LC	LC	LC	590000	590000		590000	0
+Riekko	Lagopus	lagopus	VU	NT	LC	180000	180000		180000	0
+Kiiruna	Lagopus	muta	NT	LC	LC	13000	13000		13000	0
+Teeri	Tetrao	tetrix	LC	NT	NT	480000	480000		480000	0
+Metso	Tetrao	urogallus	LC	NT	NT	540000	540000		540000	0
+Peltopyy	Perdix	perdix	LC	LC	NT	18000-18000	18000	18000	18000	
+Viiriäinen	Coturnix	coturnix	VU	EN	RE	300-1000	300	1000	650	
+Fasaani	Phasianus	colchicus	NA	NA	NE	19000	19000		19000	0
+Luhtakana	Rallus	aquaticus	LC	LC	LC	1000-1600	1000	1600	1300	
+Luhtahuitti	Porzana	porzana	LC	NT	LC	1000-2600	1000	2600	1800	
+Pikkuhuitti	Porzana	parva	EN	VU	NE	10-20	10	20	15	
+Ruisrääkkä	Crex	crex	LC	LC	NT	14000-24000	14000	24000	19000	
+Liejukana	Gallinula	chloropus	VU	VU	VU	100-400	100	400	250	
+Nokikana	Fulica	atra	EN	LC	LC	7600-18200	7600	18200	12900	
+Kurki	Grus	grus	LC	LC	LC	79000	79000		79000	0
+Meriharakka	Haematopus	ostralegus	LC	LC	LC	6800-9800	6800	9800	8300	
+Pikkutylli	Charadrius	dubius	NT	LC	LC	9100	9100		9100	
+Tylli	Charadrius	hiaticula	NT	NT	LC	6000-12000	6000	12000	9000	
+Keräkurmitsa	Charadrius	morinellus	VU	NT	NT	3000-6000	3000	6000	4500	
+Kapustarinta	Pluvialis	apricaria	LC	LC	LC	210000	210000		210000	0
+Töyhtöhyyppä	Vanellus	vanellus	LC	LC	LC	230000	230000		230000	0
+Pikkusirri	Calidris	minuta	EN	NA	NE	0-10	0	10	5	
+Lapinsirri	Calidris	temminckii	EN	VU	VU	2000-4000	2000	4000	3000	
+Merisirri	Calidris	maritima	EN	VU	VU	10-60	10	60	35	
+Suosirri	Calidris	alpina	NT	LC	LC	10000-20000	10000	20000	15000	
+Suosirri	Calidris	alpina alpina	NT	LC	LC	10000-20000	10000	20000	15000	
+Etelänsuosirri	Calidris	alpina schinzii	EN	CR	CR	110-120	110	120	115	
+Jänkäsirriäinen	Limicola	falcinellus	NT	LC	NT	52000	52000		52000	0
+Suokukko	Philomachus	pugnax	CR	EN	NT	25000	25000		25000	0
+Jänkäkurppa	Lymnocryptes	minimus	LC	LC	LC	12000	12000		12000	0
+Taivaanvuohi	Gallinago	gallinago	VU	LC	LC	250000	250000		250000	0
+Heinäkurppa	Gallinago	media	CR	CR	RE					
+Lehtokurppa	Scolopax	rusticola	LC	LC	LC	400000	400000		400000	0
+Mustapyrstökuiri	Limosa	limosa	EN	EN	EN	220-260	220	260	240	
+Punakuiri	Limosa	lapponica	LC	LC	NT	4000-6000	4000	6000	5000	
+Pikkukuovi	Numenius	phaeopus	LC	LC	LC	74000	74000		74000	
+Kuovi	Numenius	arquata	NT	LC	LC	160000	160000		160000	
+Mustaviklo	Tringa	erythropus	NT	LC	LC	25000	25000		25000	
+Punajalkaviklo	Tringa	totanus	VU	NT	LC	9000-12000	9000	12000	10500	
+Lampiviklo	Tringa	stagnatilis	VU	NA		0-10	0	10	5	
+Valkoviklo	Tringa	nebularia	LC	LC	LC	110000	110000		110000	
+Metsäviklo	Tringa	ochropus	LC	LC	LC	340000	340000		340000	
+Liro	Tringa	glareola	NT	LC	LC	770000	770000		770000	
+Rantakurvi	Xenus	cinereus	CR	CR	CR	6-10	6	10	8	
+Rantasipi	Actitis	hypoleucos	LC	NT	LC	220000-360000	220000	360000	290000	
+Karikukko	Arenaria	interpres	EN	VU	LC	2800-4600	2800	4600	3700	
+Vesipääsky	Phalaropus	lobatus	VU	VU	LC	14000-18000	14000	18000	16000	
+Merikihu	Stercorarius	parasiticus	LC	LC	LC	1000-1200	1000	1200	1100	
+Tunturikihu	Stercorarius	longicaudus	NT	LC	LC	200-10000	200	10000	5100	
+Pikkulokki	Hydrocoloeus	minutus	LC	LC	LC	20000-26000	20000	26000	23000	
+Naurulokki	Larus	ridibundus	VU	NT	VU	190000-200000	190000	200000	195000	
+Kalalokki	Larus	canus	LC	LC	LC	140000-180000	140000	180000	160000	
+Selkälokki	Larus	fuscus	EN	VU	VU	12000-16000	12000	16000	14000	
+Harmaalokki	Larus	argentatus	LC	LC	LC	50000-70000	50000	70000	60000	
+Merilokki	Larus	marinus	NT	LC	LC	3600-5400	3600	5400	4500	
+Räyskä	Hydroprogne	caspia	LC	NT	VU	2200-2200	2200	2200	2200	
+Kalatiira	Sterna	hirundo	LC	LC	LC	60000-140000	60000	140000	100000	
+Lapintiira	Sterna	paradisaea	LC	LC	LC	120000-180000	120000	180000	150000	
+Pikkutiira	Sternula	albifrons	EN	EN	EN	138-144	138	144	141	
+Mustatiira	Chlidonias	niger	CR	EN	VU	30-50	30	50	40	
+Etelänkiisla	Uria	aalge	EN	EN	VU	80-260	80	260	170	
+Ruokki	Alca	torda	LC	LC	LC	15800-23400	15800	23400	19600	
+Riskilä	Cepphus	grylle	EN	LC	NT	14000-22400	14000	22400	18200	
+Kesykyyhky	Columba	livia	LC	LC	LC	40000	40000		40000	0
+Uuttukyyhky	Columba	oenas	LC	LC	LC	11000	11000		11000	0
+Sepelkyyhky	Columba	palumbus	LC	LC	LC	600000	600000		600000	0
+Turkinkyyhky	Streptopelia	decaocto	EN	VU	VU	200-400	200	400	300	
+Turturikyyhky	Streptopelia	turtur	CR	CR	VU	10-20	10	20	15	
+Käki	Cuculus	canorus	LC	LC	NT	220000	220000		220000	0
+Huuhkaja	Bubo	bubo	EN	NT	LC	1500	1500		1500	500
+Tunturipöllö	Bubo	scandiacus	CR	CR	EN	0-20	0	20	10	
+Hiiripöllö	Surnia	ulula	LC	LC	LC	600-9800	600	9800	5200	
+Varpuspöllö	Glaucidium	passerinum	NT	LC	LC	7100	7100		7100	100
+Lehtopöllö	Strix	aluco	LC	LC	LC	2300	2300		2300	300
+Viirupöllö	Strix	uralensis	LC	LC	LC	8300	8300		8300	300
+Lapinpöllö	Strix	nebulosa	LC	LC	LC	200-4200	200	4200	2200	
+Sarvipöllö	Asio	otus	LC	LC	LC	4400	4400		4400	400
+Suopöllö	Asio	flammeus	LC	LC	LC	5900	5900		5900	900
+Helmipöllö	Aegolius	funereus	NT	NT	LC	8500	8500		8500	500
+Kehrääjä	Caprimulgus	europaeus	LC	LC	NT	6000-10000	6000	10000	8000	
+Tervapääsky	Apus	apus	VU	LC	LC	39000	39000		39000	0
+Kuningaskalastaja	Alcedo	atthis	CR	CR	NE	2-30	2	30	16	
+Käenpiika	Jynx	torquilla	LC	NT	VU	25000	25000		25000	0
+Harmaapäätikka	Picus	canus	LC	LC	NT	7500	7500		7500	500
+Palokärki	Dryocopus	martius	LC	LC	LC	63000	63000		63000	0
+Käpytikka	Dendrocopos	major	LC	LC	LC	820000	820000		820000	0
+Valkoselkätikka	Dendrocopos	leucotos	VU	EN	CR	380-380	380	380	380	
+Pikkutikka	Dendrocopos	minor	LC	LC	VU	7800	7800		7800	800
+Pohjantikka	Picoides	tridactylus	LC	LC	NT	54000	54000		54000	0
+Kangaskiuru	Lullula	arborea	VU	LC	NT	8400	8400		8400	400
+Kiuru	Alauda	arvensis	LC	LC	LC	450000	450000		450000	0
+Tunturikiuru	Eremophila	alpestris	CR	CR	CR	0-20	0	20	10	
+Törmäpääsky	Riparia	riparia	VU	VU	LC	46000	46000		46000	0
+Haarapääsky	Hirundo	rustica	NT	LC	LC	270000	270000		270000	0
+Räystäspääsky	Delichon	urbicum	EN	LC	LC	140000	140000		140000	0
+Metsäkirvinen	Anthus	trivialis	LC	LC	LC	3500000	3500000		3500000	
+Niittykirvinen	Anthus	pratensis	NT	NT	LC	1100000	1100000		1100000	
+Lapinkirvinen	Anthus	cervinus	VU	VU	LC	2000-4000	2000	4000	3000	
+Luotokirvinen	Anthus	petrosus	LC	LC	LC	2800-3800	2800	3800	3300	
+Keltavästäräkki	Motacilla	flava	NT	VU	LC	1100000	1100000		1100000	
+Sitruunavästäräkki	Motacilla	citreola	EN	VU		10-60	10	60	35	
+Virtavästäräkki	Motacilla	cinerea	VU	VU	NE	60-120	60	120	90	
+Västäräkki	Motacilla	alba	LC	LC	LC	990000	990000		990000	0
+Tilhi	Bombycilla	garrulus	LC	LC	LC	160000	160000		160000	0
+Koskikara	Cinclus	cinclus	VU	VU	NT	500-700	500	700	600	
+Peukaloinen	Troglodytes	troglodytes	LC	LC	LC	220000	220000		220000	0
+Rautiainen	Prunella	modularis	LC	LC	LC	970000	970000		970000	0
+Punarinta	Erithacus	rubecula	LC	LC	LC	4600000	4600000		4600000	
+Satakieli	Luscinia	luscinia	LC	LC	LC	42000	42000		42000	0
+Sinirinta	Luscinia	svecica	LC	NT	LC	110000	110000		110000	0
+Sinipyrstö	Tarsiger	cyanurus	NT	VU	VU	5200	5200		5200	200
+Mustaleppälintu	Phoenicurus	ochruros	LC	NT	NE	300-600	300	600	450	
+Leppälintu	Phoenicurus	phoenicurus	LC	LC	LC	1200000	1200000		1200000	
+Pensastasku	Saxicola	rubetra	LC	LC	NT	460000	460000		460000	0
+Kivitasku	Oenanthe	oenanthe	NT	VU	NT	160000	160000		160000	0
+Sepelrastas	Turdus	torquatus	EN	VU	NT	100-300	100	300	200	
+Mustarastas	Turdus	merula	LC	LC	LC	1200000	1200000		1200000	
+Räkättirastas	Turdus	pilaris	LC	LC	LC	3200000	3200000		3200000	
+Laulurastas	Turdus	philomelos	LC	LC	LC	2000000	2000000		2000000	
+Punakylkirastas	Turdus	iliacus	LC	LC	LC	2800000	2800000		2800000	
+Kulorastas	Turdus	viscivorus	LC	LC	LC	310000	310000		310000	0
+Pensassirkkalintu	Locustella	naevia	LC	LC	LC	3900	3900		3900	900
+Viitasirkkalintu	Locustella	fluviatilis	LC	LC	LC	4900	4900		4900	900
+Ruokosirkkalintu	Locustella	luscinioides	EN	VU		4-20	4	20	12	
+Ruokokerttunen	Acrocephalus	schoenobaenus	LC	LC	LC	210000	210000		210000	0
+Viitakerttunen	Acrocephalus	dumetorum	LC	LC	LC	85000	85000		85000	0
+Luhtakerttunen	Acrocephalus	palustris	LC	LC	LC	41000	41000		41000	0
+Rytikerttunen	Acrocephalus	scirpaceus	LC	LC	LC	50000	50000		50000	0
+Rastaskerttunen	Acrocephalus	arundinaceus	VU	VU	VU	500-1000	500	1000	750	
+Pikkukultarinta	Hippolais	caligata	VU	VU		20-100	20	100	60	
+Kultarinta	Hippolais	icterina	LC	LC	LC	49000	49000		49000	0
+Kirjokerttu	Sylvia	nisoria	VU	EN	LC	400-1600	400	1600	1000	
+Hernekerttu	Sylvia	curruca	LC	LC	LC	590000	590000		590000	0
+Pensaskerttu	Sylvia	communis	LC	LC	LC	700000	700000		700000	0
+Lehtokerttu	Sylvia	borin	LC	LC	LC	1700000	1700000		1700000	
+Mustapääkerttu	Sylvia	atricapilla	LC	LC	LC	220000	220000		220000	0
+Idänuunilintu	Phylloscopus	trochiloides	LC	LC	LC	50000	50000		50000	0
+Lapinuunilintu	Phylloscopus	borealis	VU	NT	LC	1000-4000	1000	4000	2500	
+Sirittäjä	Phylloscopus	sibilatrix	LC	NT	LC	400000	400000		400000	0
+Tiltaltti	Phylloscopus	collybita	LC	LC	VU	650000	650000		650000	0
+Pajulintu	Phylloscopus	trochilus	LC	LC	LC	14000000	14000000		14000000	
+Hippiäinen	Regulus	regulus	LC	LC	LC	2100000	2100000		2100000	
+Harmaasieppo	Muscicapa	striata	LC	LC	LC	3400000	3400000		3400000	
+Pikkusieppo	Ficedula	parva	LC	LC	NT	23000	23000		23000	0
+Kirjosieppo	Ficedula	hypoleuca	LC	LC	LC	1000000	1000000		1000000	
+Viiksitimali	Panurus	biarmicus	VU	NT	NT	1000-2000	1000	2000	1500	
+Pyrstötiainen	Aegithalos	caudatus	LC	LC	LC	72000	72000		72000	0
+Hömötiainen	Parus	montanus	VU	LC	LC	1400000	1400000		1400000	
+Lapintiainen	Parus	cinctus	LC	LC	NT	160000	160000		160000	0
+Töyhtötiainen	Parus	cristatus	VU	LC	LC	870000	870000		870000	0
+Kuusitiainen	Parus	ater	LC	LC	LC	130000	130000		130000	0
+Sinitiainen	Parus	caeruleus	LC	LC	LC	1300000	1300000		1300000	
+Talitiainen	Parus	major	LC	LC	LC	3700000	3700000		3700000	
+Pähkinänakkeli	Sitta	europaea	VU	NA		0-40	0	40	20	
+Puukiipijä	Certhia	familiaris	LC	LC	LC	470000	470000		470000	0
+Pussitiainen	Remiz	pendulinus	EN	VU		2-30	2	30	16	
+Kuhankeittäjä	Oriolus	oriolus	EN	NT	LC	7100	7100		7100	100
+Pikkulepinkäinen	Lanius	collurio	LC	LC	NT	120000	120000		120000	0
+Isolepinkäinen	Lanius	excubitor	LC	LC	NT	18000	18000		18000	0
+Närhi	Garrulus	glandarius	LC	LC	LC	240000	240000		240000	0
+Kuukkeli	Perisoreus	infaustus	NT	NT	NT	160000	160000		160000	0
+Harakka	Pica	pica	LC	LC	LC	390000	390000		390000	0
+Pähkinähakki	Nucifraga	caryocatactes	LC	LC	LC	4000-7000	4000	7000	5500	
+Naakka	Corvus	monedula	LC	LC	LC	270000	270000		270000	0
+Mustavaris	Corvus	frugilegus	LC	LC	LC	3000-3200	3000	3200	3100	
+Varis	Corvus	corone	LC	LC	LC	37000	37000		37000	0
+Korppi	Corvus	corax	LC	LC	LC	43000	43000		43000	0
+Kottarainen	Sturnus	vulgaris	LC	LC	NT	130000	130000		130000	0
+Varpunen	Passer	domesticus	VU	LC	NT	490000	490000		490000	0
+Pikkuvarpunen	Passer	montanus	LC	LC	LC	350000	350000		350000	0
+Peippo	Fringilla	coelebs	LC	LC	LC	15000000	15000000		15000000	
+Järripeippo	Fringilla	montifringilla	LC	LC	LC	2600000	2600000		2600000	
+Keltahemppo	Serinus	serinus	NA	NA		0-6	0	6	3	
+Viherpeippo	Carduelis	chloris	VU	LC	LC	580000	580000		580000	0
+Tikli	Carduelis	carduelis	LC	LC	LC	25000	25000		25000	0
+Vihervarpunen	Carduelis	spinus	LC	LC	LC	3300000	3300000		3300000	
+Hemppo	Carduelis	cannabina	LC	LC	LC	41000	41000		41000	0
+Vuorihemppo	Carduelis	flavirostris	EN	VU	DD	0-20	0	20	10	
+Urpiainen	Carduelis	flammea	LC	LC	LC	850000	850000		850000	0
+Tundraurpiainen	Carduelis	hornemanni	LC	LC	LC	21000	21000		21000	0
+Kirjosiipikäpylintu	Loxia	leucoptera	LC	LC	LC	24000	24000		24000	0
+Pikkukäpylintu	Loxia	curvirostra	LC	LC	LC	780000	780000		780000	0
+Isokäpylintu	Loxia	pytyopsittacus	LC	LC	LC	150000	150000		150000	0
+Punavarpunen	Carpodacus	erythrinus	NT	NT	LC	270000	270000		270000	0
+Taviokuurna	Pinicola	enucleator	LC	LC	LC	29000	29000		29000	0
+Punatulkku	Pyrrhula	pyrrhula	VU	LC	LC	380000	380000		380000	0
+Nokkavarpunen	Coccothraustes	coccothraustes	LC	LC	NT	2000-3000	2000	3000	2500	
+Lapinsirkku	Calcarius	lapponicus	LC	LC	LC	290000	290000		290000	0
+Pulmunen	Plectrophenax	nivalis	EN	NT	LC	15000	15000		15000	0
+Keltasirkku	Emberiza	citrinella	LC	LC	LC	2000000	2000000		2000000	
+Peltosirkku	Emberiza	hortulana	EN	EN	VU	36000	36000		36000	0
+Pohjansirkku	Emberiza	rustica	NT	VU	LC	440000	440000		440000	0
+Pikkusirkku	Emberiza	pusilla	LC	LC	LC	45000	45000		45000	0
+Kultasirkku	Emberiza	aureola	CR	CR	CR	0-2	0	2	1	
+Pajusirkku	Emberiza	schoeniclus	VU	LC	LC	480000	480000		480000	0

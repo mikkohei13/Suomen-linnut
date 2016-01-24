@@ -1,0 +1,25 @@
+FI UHEX-NIMI ATLAS-NIMI
+
+"liian uusia" nimiä muutettu tavallisemmiksi
+jänkäsirriäinen Calidris falcinellus -> Limicola falcinellus
+suokukko Calidris pugnax -> Philomachus pugnax
+pikkukultarinta Iduna caligata -> Hippolais caligata
+hömötiainen Poecile montanus -> Parus montanus
+lapintiainen Poecile cinctus -> Parus cinctus
+töyhtötiainen Lophophanes cristatus -> Parus cristatus
+kuusitiainen Periparus ater -> Parus ater
+sinitiainen Cyanistes caeruleus -> Parus caeruleus
+
+"liian vanhoja" nimiä muutettu uudemmiksi
+uivelo Mergus albellus -> Mergellus albellus
+pikkutiira Sterna albiforns -> Sternula albifrons
+pikkulokki Larus minutus -> Hydrocoloeus minutus
+räsykä Sterna caspia -> Hydroprogne caspia
+
+kirjoitusvirheitä(?) korjattu
+rantasipi Actitis hypoleuca -> Actitis hypoleucos
+tunturipöllö Bubo scandiaca -> Bubo scandiacus
+turkinkyyhky Sreptopelia decaocto -> Streptopelia decaocto
+turturikyyhky Sreptopelia turtur -> Sreptopelia turtur
+kirjosiipikäpylintu Loxia leucopterus -> Loxia leucoptera
+

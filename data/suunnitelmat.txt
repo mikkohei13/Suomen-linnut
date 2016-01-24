@@ -1,0 +1,21 @@
+
+Mitä tietoja?
+=============
+
+Perus
+- Ruudun lintulajit ja niiden
+	- Pesimisvarmuudet
+	- Suomenkielinen nimi
+	- Ruotsinkielinen nimi
+	- Suomen pesimäkanta, min, max ja ka, perustuen lintuatlakseen
+	- Suomen levinneisyys, perustuen lintuatlakseen
+	- Uhamalaisuusstatus
+		- elinympäristöt, syyt, uhat, muutos vs. 2010
+
+Analysoitu
+- Ruudulla epätavalliset, verrattuna lähiseudun lajeihin
+	- Meri/maa-ruutujen erottelu
+
+
+
+

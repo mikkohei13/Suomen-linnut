@@ -1,0 +1,112 @@
+Laji	SCI	FI	SV	Luokka2015	Kriteerit	Elinymp-1	Elinymp-muut	Syyt	Uhat	Luokka2010	Muutossyy
+Accipiter gentilis, kanahaukka, duvhök	Accipiter gentilis	kanahaukka	duvhök	NT		Mk		M, Mv	M, Mv	LC	1
+Acrocephalus arundinaceus, rastaskerttunen, trastsångare	Acrocephalus arundinaceus	rastaskerttunen	trastsångare	VU	D1	Rin	Rjn	S	S	VU	
+Aegolius funereus, helmipöllö, pärluggla	Aegolius funereus	helmipöllö	pärluggla	NT		Mk	Sk, Sr, Ml	Muu, MV, Ml	Muu, Mv, Ml	NT	
+Alcedo atthis, kuningaskalastaja, kungfiskare	Alcedo atthis	kuningaskalastaja	kungfiskare	CR	D1	Vj	Vp	S	S, Vr, Muu	CR	
+Anas acuta, jouhisorsa, stjärtand	Anas acuta	jouhisorsa	stjärtand	EN	A2abcd	Vs	Va, Vi	P, U	P, U	VU	1
+Anas penelope, haapana, bläsand	Anas penelope	haapana	bläsand	VU	A2ab	Vs	Vi	P, N	P	LC	1
+Anas querquedula, heinätavi, årta	Anas querquedula	heinätavi	årta	EN	A2abcd	Vsr	Vi	P, U	P, U	VU	1
+Anser erythropus, kiljuhanhi, fjällgås	Anser erythropus	kiljuhanhi	fjällgås	CR	D1	Ts	Rj, Rin, S	P, U, H	U, H, P, Muu, S	CR	
+Anser fabalis, metsähanhi, sädgås	Anser fabalis	metsähanhi	sädgås	VU	A2abc	Sr	M, Vsk, Iv	P, O, Vr	P, O, R, U	NT	2
+Anthus cervinus, lapinkirvinen, rödstrupig piplärka	Anthus cervinus	lapinkirvinen	rödstrupig piplärka	VU	C1, A2a	Ts	Sn	U	U, I	VU	
+Anthus pratensis, niittykirvinen, ängspiplärka	Anthus pratensis	niittykirvinen	ängspiplärka	NT		Sn	Tk, Ts, Iv,	U, Pm	U, Pm	NT	
+Apus apus, tervapääsky, tornseglare	Apus apus	tervapääsky	tornseglare	VU	A2	Ir	Mkh, Mkv, Ml	?	?	LC	1
+Aquila chrysaetos, maakotka, kungsörn	Aquila chrysaetos	maakotka	kungsörn	VU	D1	Mk	S	P, H, Ke, Mv	H, Mv, P, R	VU	
+Aquila clanga, kiljukotka, större skrikörn	Aquila clanga	kiljukotka	större skrikörn	CR	D1	Rj	Mk	P, H, Muu, U	P, H, Muu, Mv, S	CR	
+Arenaria interpres, karikukko, roskarl	Arenaria interpres	karikukko	roskarl	EN	A2ab	Ri		U, Vie	U	VU	1
+Aythya ferina, punasotka, brunand	Aythya ferina	punasotka	brunand	EN	A2abcd	Vsr		Vie, muu	Vie, muu, P, Kil	VU	1
+Aythya fuligula, tukkasotka, vigg	Aythya fuligula	tukkasotka	vigg	EN	A2abcd	Vs	Vi	muu	muu	VU	1
+Aythya marila, lapasotka, bergand	Aythya marila	lapasotka	bergand	EN	A2abcd	Vi	Vsk	P, Kh	P, Kh, U, H, I, Kil, Vie	EN	
+Bubo bubo, huuhkaja, berguv	Bubo bubo	huuhkaja	berguv	EN	A2ab	K	Mk	H, Muu, P	H, Muu, P	NT	1
+Bubo scandiacus, tunturipöllö, fjälluggla	Bubo scandiacus	tunturipöllö	fjälluggla	CR	D1	Tk	Iv, Vi	Ke, P, H	H, Ke, Muu, I	CR	
+Buteo buteo, hiirihaukka, ormvråk	Buteo buteo	hiirihaukka	ormvråk	VU	A2ab	Mk		U, M, I	U, M, I, Mv	VU	
+Buteo lagopus, piekana, fjällvråk	Buteo lagopus	piekana	fjällvråk	EN	A2ab	Tk	K, Mk	Muu	I, Muu	LC	2
+Calidris alpina, suosirri, kärrsnäppa	Calidris alpina	suosirri	kärrsnäppa	NT		Ts, Rin	Tk, Rit	?, N, R, H	I, ?, N, H, S	LC	1
+Calidris alpina alpina, suosirri, kärrsnäppa	Calidris alpina alpina	suosirri	kärrsnäppa	NT		Ts	Tk	?	I, ?	LC	1
+Calidris alpina schinzii, etelänsuosirri, sydlig kärrsnäppa	Calidris alpina schinzii	etelänsuosirri	sydlig kärrsnäppa	EN	D1	Rin	Rit	N, R, H	N, H, S	CR	1
+Limicola falcinellus, jänkäsirriäinen, myrsnäppa	Limicola falcinellus	jänkäsirriäinen	myrsnäppa	NT		Sn	Ts, Va			LC	1
+Calidris maritima, merisirri, skärsnäppa	Calidris maritima	merisirri	skärsnäppa	EN	D1	Tk	Ts, Ri	S	S, I, Kh	VU	4
+Calidris minuta, pikkusirri, småsnäppa	Calidris minuta	pikkusirri	småsnäppa	EN	D1	Tk	Ts	S	S, I	NA	2
+Calidris pugnax, suokukko, brushane	Philomachus pugnax	suokukko	brushane	CR	A2abc	Sn	Rjn, Rin	N, O, U	N, O, U, P	EN	1
+Calidris temminckii, lapinsirri, mosnäppa	Calidris temminckii	lapinsirri	mosnäppa	EN	A2abc	Rjn	Tk, Ts, Rjt, Sn, Ij, Rin	N, Vr	N, U, R, H, I	VU	1
+Carduelis chloris, viherpeippo, grönfink	Carduelis chloris	viherpeippo	grönfink	VU	A2abe	Ip	lv, Mk, Ml	Vie	Vie	LC	1
+Carduelis flavirostris, vuorihemppo, vinterhämpling	Carduelis flavirostris	vuorihemppo	vinterhämpling	EN	D1	Tl		I	I, S	VU	4
+Carpodacus erythrinus, punavarpunen, rosenfink	Carpodacus erythrinus	punavarpunen	rosenfink	NT		lt	Ip, Io, Ih, Rin, Mkt, Ml			NT	
+Cepphus grylle, riskilä, tobisgrissla	Cepphus grylle	riskilä	tobisgrissla	EN	A2abe	Vi	Rik	Kh, Vie, P	Kh, Vie, P	LC	1
+Charadrius dubius, pikkutylli, mindre strandpipare	Charadrius dubius	pikkutylli	mindre strandpipare	NT		Io	Ij, Rj, Ri			LC	1
+Charadrius hiaticula, tylli, större strandpipare	Charadrius hiaticula	tylli	större strandpipare	NT		Rj	Ri, Ts, Ij			NT	
+Charadrius morinellus, keräkurmitsa, fjällpipare	Charadrius morinellus	keräkurmitsa	fjällpipare	VU	A2abc	Tk		U	U, I	NT	
+Chlidonias niger, mustatiira, svarttärna	Chlidonias niger	mustatiira	svarttärna	CR	D1	Vsr		S	S, Vie, Vr	EN	1
+Cinclus cinclus, koskikara, strömstare	Cinclus cinclus	koskikara	strömstare	VU	D1	Vj	Vk, Vp	Muu, H	H	VU	
+Circus cyaneus, sinisuohaukka, blå kärrhök	Circus cyaneus	sinisuohaukka	blå kärrhök	VU	A2ab	S	Iv, Mk	Muu	Muu	VU	
+Circus macrourus, arosuohaukka, stäpphök	Circus macrourus	arosuohaukka	stäpphök	EN	D1	lv	Sr	U	P	NA	5
+Circus pygargus, niittysuohaukka, ängshök	Circus pygargus	niittysuohaukka	ängshök	EN	D1	Rin	Iv, Rjn	Vr, U, H	Vr, U, H, P, S	EN	
+Clangula hyemalis, alli, alfågel	Clangula hyemalis	alli	alfågel	NT		Va	Vsk, Ts, Vi	Kh, U, P	Kh, U, P	LC	1
+Coturnix coturnix, viiriäinen, vaktel	Coturnix coturnix	viiriäinen	vaktel	VU	D1	lv		P, Pm, U	P, Pm, Muu	EN	1
+Delichon urbicum, räystäspääsky, hussvala	Delichon urbicum	räystäspääsky	hussvala	EN	A2ab	Ir	Kr	U, Pm	U, Pm	LC	1
+Dendrocopos leucotos, valkoselkätikka, vitryggig hackspett	Dendrocopos leucotos	valkoselkätikka	vitryggig hackspett	VU	D1	Mlv	Mkt, Ip	Ml, Mp, R	Ml, Mp	EN	1
+Emberiza aureola, kultasirkku, gyllensparv	Emberiza aureola	kultasirkku	gyllensparv	CR	D1	Rin	Rjn	U, P	P, N, S, U	CR	
+Emberiza hortulana, peltosirkku, ortolansparv	Emberiza hortulana	peltosirkku	ortolansparv	EN	A2ab	lv	ln	U, Pm	U, Pm	EN	
+Emberiza rustica, pohjansirkku, videsparv	Emberiza rustica	pohjansirkku	videsparv	NT		Sr	Sk, Mkt, Mlk			VU	1
+Emberiza schoeniclus, pajusirkku, sävsparv	Emberiza schoeniclus	pajusirkku	sävsparv	VU	A2ab	Rin	Vsr, Io, Sjn, S	Muu	Muu	LC	1
+Eremophila alpestris, tunturikiuru, berglärka	Eremophila alpestris	tunturikiuru	berglärka	CR	D1	Tk		U	U, I, Muu	CR	
+Falco peregrinus, muuttohaukka, pilgrimsfalk	Falco peregrinus	muuttohaukka	pilgrimsfalk	VU	D1	Sn	K	Kh, P, O	H, Ke, Vr, O	VU	
+Falco rusticolus, tunturihaukka, jaktfalk	Falco rusticolus	tunturihaukka	jaktfalk	CR	D1	Tk		P, H, Vie	H, Ke, I	EN	1
+Fulica atra, nokikana, sothöna	Fulica atra	nokikana	sothöna	EN	A2ab	Vsr	Vi	Muu	P, Muu	LC	1
+Gallinago gallinago, taivaanvuohi, enkelbeckasin	Gallinago gallinago	taivaanvuohi	enkelbeckasin	VU	A2ab	Sn	Rjn, Rin, Sr, Ik, Va	?	P, Muu	LC	1
+Gallinago media, heinäkurppa, dubbelbeckasin	Gallinago media	heinäkurppa	dubbelbeckasin	CR	D1	Iv	Ik, Rjn	N	N, U, P, Pm, S	CR	
+Gallinula chloropus, liejukana, rörhöna	Gallinula chloropus	liejukana	rörhöna	VU	D1	Vsr	Vi	S	S	VU	
+Glaucidium passerinum, varpuspöllö, sparvuggla	Glaucidium passerinum	varpuspöllö	sparvuggla	NT		M		Mv, Ml, Muu	Mv, Ml, Muu	LC	1
+Haliaeetus albicilla, merikotka, havsörn	Haliaeetus albicilla	merikotka	havsörn	VU	D1	Vi	Vs, M	Kh, M, R, P, H	H, R, M, Mv, P	VU	
+Hirundo rustica, haarapääsky, ladusvala	Hirundo rustica	haarapääsky	ladusvala	NT		Ir		U, Pm	U, Pm	LC	1
+Iduna caligata, pikkukultarinta, stäppsångare	Hippolais caligata	pikkukultarinta	stäppsångare	VU	D1	Iv	In	S	S, N, Pm	VU	
+Lagopus lagopus, riekko, dalripa	Lagopus lagopus	riekko	dalripa	VU	A2abc	Sr	Mk, Mt, Ts, Vi	O, I	O, I	NT	1
+Lagopus muta, kiiruna, fjällripa	Lagopus muta	kiiruna	fjällripa	NT	A2ab	Tl		I,	I, P	LC	1
+Larus fuscus, selkälokki, silltrut	Larus fuscus	selkälokki	silltrut	EN	A2ab	Vsk	Rj, Vi, Ri	H, P, Kil, Kh, Vie	Kh, H, P, Kil, P, U, Vie	VU	1
+Larus marinus, merilokki, havstrut	Larus marinus	merilokki	havstrut	NT	A2ab	Vi	Ri, Sn, Vsk, Rj, Ir	Muu	Muu	LC	
+Larus ridibundus, naurulokki, skrattmås	Larus ridibundus	naurulokki	skrattmås	VU	A2ab	Vi	Ri, Vsr, Rjn, Vsk, Sn, Va, Ij	H, Pm, P, Muu	Muu, H, Pm, Vie	NT	1
+Limosa limosa, mustapyrstökuiri, rödspov	Limosa limosa	mustapyrstökuiri	rödspov	EN	D1	Rin	Iv, Rjn, Ik, Sn	S	N, H, Pm, S	EN	
+Locustella luscinioides, ruokosirkkalintu, vassångare	Locustella luscinioides	ruokosirkkalintu	vassångare	EN	D1	Rjn	Rin	S	S	VU	4
+Lophophanes cristatus, töyhtötiainen, tofsmes	Parus cristatus	töyhtötiainen	tofsmes	VU	A2ab	Mkk	Sr	Ml, Mv	ML, Mv	LC	1
+Lullula arborea, kangaskiuru, trädlärka	Lullula arborea	kangaskiuru	trädlärka	VU	A1ab	K	Mkh, Mkk, Mkp, Io	N	S	LC	1
+Melanitta fusca, pilkkasiipi, svärta	Melanitta fusca	pilkkasiipi	svärta	EN	A2abcd	Vi	Vsk	P, Kh, Vie	P, Kh, Vie, H, I	NT	1
+Mergus merganser, isokoskelo, storskrake	Mergus merganser	isokoskelo	storskrake	VU	A2abc	Vsk	Vi	?	?, Kh, P, Vie	NT	1
+Mergus serrator, tukkakoskelo, småskrake	Mergus serrator	tukkakoskelo	småskrake	EN	A2abc	Vsk	Vi	?	?, Kh, P, Vie	NT	1
+Milvus migrans, haarahaukka, brunglada	Milvus migrans	haarahaukka	brunglada	CR	D1	Mk	Rjm	U, P	U, Mv	CR	
+Motacilla cinerea, virtavästäräkki, forsärla	Motacilla cinerea	virtavästäräkki	forsärla	VU	D1	Vk	Vj, Vp	S	S	VU	
+Motacilla citreola, sitruunavästäräkki, citronärla	Motacilla citreola	sitruunavästäräkki	citronärla	EN	D1	Rin	Rjn, Ik	N, S	N, S	VU	4
+Motacilla flava, keltavästäräkki, gulärla	Motacilla flava	keltavästäräkki	gulärla	NT		Sn	Sr, Iv, Rjn, Rin, Ts, Ik, Ij, Mkk	U, Pm, O, N	U, O, N	VU	1
+Numenius arquata, kuovi, storspov	Numenius arquata	kuovi	storspov	NT		Iv	Rjn, Rin, Sn, Sr, Ik	Pm, P	Pm, P	LC	1
+Oenanthe oenanthe, kivitasku, stenskvätta	Oenanthe oenanthe	kivitasku	stenskvätta	NT		Iv	K, Tl, Ir, Ij, Rik, Rjk, Mt, Mkk	U, Pm	U, Pm	VU	1
+Oriolus oriolus, kuhankeittäjä, sommargylling	Oriolus oriolus	kuhankeittäjä	sommargylling	EN	A2ab	Ml	Rim, Rjm	U	U	NT	1
+Panurus biarmicus, viiksitimali, skäggmes	Panurus biarmicus	viiksitimali	skäggmes	VU	D1	Rin	Vsr, Rjn, Vi	S	S	NT	1
+Passer domesticus, varpunen, gråsparv	Passer domesticus	varpunen	gråsparv	VU	A2ab	lr	lp	Pm, ?		LC	1
+Perisoreus infaustus, kuukkeli, lavskrika	Perisoreus infaustus	kuukkeli	lavskrika	NT		Mk		M	Mv	NT	
+Pernis apivorus, mehiläishaukka, bivråk	Pernis apivorus	mehiläishaukka	bivråk	EN	A2abcd	Mk	Ml	U, P, Pm	U, Pm	VU	1
+Phalaropus lobatus, vesipääsky, smalnäbbad simsnäppa	Phalaropus lobatus	vesipääsky	smalnäbbad simsnäppa	VU	A2abc	Sn	Ts, Va, Ri	O, U, S	O, U, S, I	VU	
+Phylloscopus borealis, lapinuunilintu, nordsångare	Phylloscopus borealis	lapinuunilintu	nordsångare	VU	A2a, D1	Ml	Mt, Mkt	U	U	NT	1
+Plectrophenax nivalis, pulmunen, snösparv	Plectrophenax nivalis	pulmunen	snösparv	EN	A2ab	Tl	Tk	I	I	NT	1
+Podiceps auritus, mustakurkku-uikku, svarthakedopping	Podiceps auritus	mustakurkku-uikku	svarthakedopping	EN	A2abc	Vsr	Vi	Kil, U, Kh	Kh, U, Kil	VU	1
+Podiceps cristatus, silkkiuikku, skäggdopping	Podiceps cristatus	silkkiuikku	skäggdopping	NT		Vsr	Vi	Vr, Vie	muu	LC	1
+Poecile montanus, hömötiainen, talltita	Parus montanus	hömötiainen	talltita	VU	A2ab	Mk		Ml, Mv	Ml, Mv	LC	1
+Porzana parva, pikkuhuitti, mindre sumphöna	Porzana parva	pikkuhuitti	mindre sumphöna	EN	D1	Rjn	Vsr, Rin	Vr, S	Vr	VU	4
+Pyrrhula pyrrhula, punatulkku, domherre	Pyrrhula pyrrhula	punatulkku	domherre	VU	A2ab	Mkt	Ml	?	?	LC	1
+Remiz pendulinus, pussitiainen, pungmes	Remiz pendulinus	pussitiainen	pungmes	EN	D1	Rim	Rjm	S	S	VU	4
+Riparia riparia, törmäpääsky, backsvala	Riparia riparia	törmäpääsky	backsvala	VU	A2ab	Io	Vj, Ris, Ij	U, N	U, N	VU	
+Sitta europaea, pähkinänakkeli, nötväcka	Sitta europaea	pähkinänakkeli	nötväcka	VU	D1	lp	Ml	S	S	NA	5
+Somateria mollissima, haahka, ejder	Somateria mollissima	haahka	ejder	VU	A2abcde	Vi		Vie, Kh, I, U	Vie, Kh, I, U, P	NT	1
+Streptopelia decaocto, turkinkyyhky, turkduva	Streptopelia decaocto	turkinkyyhky	turkduva	EN	A2ab, C1, D1	Ip		S	S, Muu	VU	1
+Streptopelia turtur, turturikyyhky, turturduva	Streptopelia turtur	turturikyyhky	turturduva	CR	A2abc, D1	Ml	Mk, Iv, Ip	U, P	U, P, Pm	CR	
+Stercorarius longicaudus, tunturikihu, fjällabb	Stercorarius longicaudus	tunturikihu	fjällabb	NT		Tk		Muu	I	LC	1
+Sternula albifrons, pikkutiira, småtärna	Sternula albifrons	pikkutiira	småtärna	EN	D1	Vi	Rih	H, R, Muu	H, U, S	EN	
+Sylvia nisoria, kirjokerttu, höksångare	Sylvia nisoria	kirjokerttu	höksångare	VU	D1	In	Ih, Ip, Ml, Rin	U	U, N	EN	1
+Tachybaptus ruficollis, pikku-uikku, smådopping	Tachybaptus ruficollis	pikku-uikku	smådopping	EN	D1	Vsr		S	S	VU	4
+Tadorna tadorna, ristisorsa, gravand	Tadorna tadorna	ristisorsa	gravand	VU	D1	Vi	Rih, Rik	H, R	H, R	VU	
+Tarsiger cyanurus, sinipyrstö, blåstjärt	Tarsiger cyanurus	sinipyrstö	blåstjärt	NT		Mkv		Mv, U	Mv, U	VU	1
+Tringa erythropus, mustaviklo, svartsnäppa	Tringa erythropus	mustaviklo	svartsnäppa	NT		Sn	Mkk, Ts	M, O	M, O	LC	1
+Tringa glareola, liro, grönbena	Tringa glareola	liro	grönbena	NT		Sn	Sr, Rjn, Ik			LC	1
+Tringa stagnatilis, lampiviklo, dammsnäppa	Tringa stagnatilis	lampiviklo	dammsnäppa	VU	D1	Rjn	Rin	S	S	NA	5
+Tringa totanus, punajalkaviklo, rödbena	Tringa totanus	punajalkaviklo	rödbena	VU	A2ab	Ri	Rjn, Ik, Sr, Sn, Ts	N	N, Vie	NT	1
+Turdus torquatus, sepelrastas, ringtrast	Turdus torquatus	sepelrastas	ringtrast	EN	D1	Tl		S	S, I	VU	4
+Uria aalge, etelänkiisla, sillgrissla	Uria aalge	etelänkiisla	sillgrissla	EN	D1	Vi	Rik	S	Kh, H, U, P, S, Vie	EN	
+Xenus cinereus, rantakurvi, tereksnäppa	Xenus cinereus	rantakurvi	tereksnäppa	CR	D1	Ij	Ri	Ke, H, R, N	R, H, Kh, S, Vie	CR	
