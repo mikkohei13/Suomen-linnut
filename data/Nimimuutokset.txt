@@ -14,7 +14,7 @@ sinitiainen Cyanistes caeruleus -> Parus caeruleus
 uivelo Mergus albellus -> Mergellus albellus
 pikkutiira Sterna albiforns -> Sternula albifrons
 pikkulokki Larus minutus -> Hydrocoloeus minutus
-räsykä Sterna caspia -> Hydroprogne caspia
+räyskä Sterna caspia -> Hydroprogne caspia
 
 kirjoitusvirheitä(?) korjattu
 rantasipi Actitis hypoleuca -> Actitis hypoleucos
