@@ -37,7 +37,7 @@ foreach ($gridDataArr as $number => $row)
 	$gridAdditionalData[$grid]['activityCategory'] = $cells[12];
 }
 
-//print_r ($gridAdditionalData);
+print_r ($gridAdditionalData);
 
 // ------------------------------------------
 // Speciesdata
@@ -46,7 +46,7 @@ $breedingData = file_get_contents("data/atlas3-breeding-data.txt");
 
 $breedingDataArr = explode("\n", $breedingData);
 
-$gridMem = 0;
+$gridMem = FALSE;
 $new = Array();
 
 $gridCount = 1;
@@ -65,26 +65,32 @@ foreach ($breedingDataArr as $number => $row)
 	// Starting new grid
 	if ($grid != $gridMem)
 	{
-		// Add grid data and save
-		$new[$grid]['grid'] = $gridAdditionalData[$grid];
-		saveGridJson($new, $grid);
-
-		// Clear new
-		unset($new);
-		$new = Array();
-
-		$gridMem = $grid;
-
-		$gridCount++;
-		if ($gridCount % 100 == 0)
+		if ($gridMem === FALSE)
 		{
-			echo $gridCount . " grids done\n";
-//			exit(); // debug
+			$gridMem = $grid;
+		}
+		else
+		{
+			// Add grid data and save
+			$new[$grid]['grid'] = $gridAdditionalData[$grid];
+			saveGridJson($new, $grid);
+
+			// Clear new
+			unset($new);
+			$new = Array();
+
+			$gridMem = $grid;
+
+			$gridCount++;
+			if ($gridCount % 100 == 0)
+			{
+				echo $gridCount . " grids done\n";
+//				exit("DEBUG 2: ENDED AFTER $gridCount"); // debug
+			}
 		}
 	}
 
 	$abbr = $cells[1];
-
 	$new['species'][$abbr]['pvindeksi'] = $cells[5];
 	$new['species'][$abbr]['pvluokka'] = $cells[6];
 
@@ -98,9 +104,11 @@ function saveGridJson($data, $grid)
 {
 	$json = json_encode($data);
 
-	echo "grid:" . $grid; print_r ($data); exit();
+//	echo "grid:" . $grid; print_r ($data); exit(); // debug
 
-	file_put_contents("griddata/$grid.json", $json);	
+	file_put_contents("griddata/$grid.json", $json);
+
+//	exit("DEBUG 1: ENDED AFTER 1: $grid");
 }
 
 

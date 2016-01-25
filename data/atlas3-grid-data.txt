@@ -1,4 +1,3 @@
-grid	N	E	regionNumber	societyNameFI	societyNameSV	municipality	gridName	level1	level2	level3	level4	level5	activitySum	activityCategory
 661:312	661	312	1	Ålands Fågelskyddsförening. Ahvenanmaa	Ålands Fågelskyddsförening	Kökar	Bogskär	1	19.5	40	52.2	65.3	0	0
 663:318	663	318	2	Turun Lintutieteellinen Yhdistys	Turun Lintutieteellinen Yhdistys	Länsi-Turunmaa	Alu	1	19.5	40	52.2	65.3	48	3
 663:319	663	319	2	Turun Lintutieteellinen Yhdistys	Turun Lintutieteellinen Yhdistys	Länsi-Turunmaa	Kalkskär	1	19.5	40	52.2	65.3	46	3
