@@ -37,6 +37,7 @@ foreach ($atlasSpeciesArr as $number => $row)
 // ----------------------------------------------------------------
 // Luokitus
 
+/*
 $uhexSpecies = file_get_contents("data/uhex-luokat-SIIVOTTU.txt");
 
 $uhexSpeciesArr = explode("\n", $uhexSpecies);
@@ -62,6 +63,7 @@ foreach ($uhexSpeciesArr as $number => $row)
 
 
 }
+*/
 
 
 /*
@@ -99,6 +101,36 @@ foreach ($uhexSpeciesArr as $number => $row)
 }
 
 */
+
+// ----------------------------------------------------------------
+// Atlas 1&2 nimilista
+
+$atlas12Species = file_get_contents("data/atlas-lajit.txt");
+
+$atlas12SpeciesArr = explode("\n", $atlas12Species);
+
+foreach ($atlas12SpeciesArr as $number => $row)
+{
+	$row = trim($row);
+	$cells = explode(",", $row);
+
+//	print_r ($cells);	exit("debug");
+
+	$sci = $cells[1];
+
+	if (@$atlasSCI[$sci] == 1)
+	{
+//				echo "FOUND from atlasSCI: /" . $cell . "/<br />";
+	}
+	else
+	{
+		echo "Missing from atlasSCI: /" . $sci . "/<br />";
+	}
+
+
+}
+
+
 
 print_r ($atlasSCI);
 
