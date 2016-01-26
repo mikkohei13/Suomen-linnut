@@ -58,14 +58,14 @@ class Species {
     $sci = $this->speciesArr[$abbr]['sci'];
     $pvluokka = $this->gridArr['species'][$abbr]['pvluokka'];
 
+    $localHtml .= "<div class='species' id='$abbr'>\n";
     if ($withImage)
     {
       $localHtml .= $this->getImageHtml($abbr, $sci);
     }
     $localHtml .= $this->getIconsHtml($abbr);
-    $localHtml .= "
-      <h4>$fi ($sci)</h4>
-    ";
+    $localHtml .= "  <h4 id='h4$abbr'>$fi</h4>\n";
+    $localHtml .= "</div>\n\n";
 
     @$this->speciesHtmlArr[$pvluokka] .= $localHtml;
   }
@@ -80,7 +80,7 @@ class Species {
     else
     {
       $imageUrl = "images/species/200/" . $sci . ".jpg";
-      return "<img src='$imageUrl' alt='' />\n";
+      return "  <img src='$imageUrl' alt='' />\n";
     }
   }
 
@@ -90,33 +90,24 @@ class Species {
 
     if ($this->speciesArr[$abbr]['atlas']['paritKaJarjestys'] > 170)
     {
-      $localHtml .= "
-        <img src='images/star-green.png'>
-      ";
+      $localHtml .= "  <img src='images/star-green.png' alt='harvalukuinen' class='icon greenstar'>\n";
     }
     if ($this->speciesArr[$abbr]['atlas']['ruudutYhtJarjestys'] > 170)
     {
-      $localHtml .= "
-        <img src='images/star-blue.png'>
-      ";
+      $localHtml .= "  <img src='images/star-blue.png' alt='harvinainen' class='icon bluestar'>\n";
     }
+
     if (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "CR")
     {
-      $localHtml .= "
-        <img src='images/cr.png'>
-      ";
+      $localHtml .= "  <img src='images/cr.png' alt='äärimmäisen uhanalainen' class='icon cr'>\n";
     }
-    if (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "EN")
+    elseif (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "EN")
     {
-      $localHtml .= "
-        <img src='images/en.png'>
-      ";
+      $localHtml .= "  <img src='images/en.png' alt='erittäin uhanalainen' class='icon en'>\n";
     }
-    if (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "VU")
+    elseif (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "VU")
     {
-      $localHtml .= "
-        <img src='images/vu.png'>
-      ";
+      $localHtml .= "  <img src='images/vu.png' alt='vaarantunut' class='icon vu'>\n";
     }
 
     return $localHtml;
