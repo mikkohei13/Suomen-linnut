@@ -38,6 +38,11 @@ function generateSpeciesHtml($abbr)
 	global $speciesArr;
 	global $imagesArr;
 
+	if (! isset($speciesArr[$abbr]))
+	{
+		return "<!-- No speciesdata for $abbr -->";
+	}
+
 	$localHtml = "";
 
 	$fi = $speciesArr[$abbr]['fi'];
