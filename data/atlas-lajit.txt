@@ -246,3 +246,8 @@ EMBRUS,Emberiza rustica,Pohjansirkku,Videsparv,Rustic Bunting,1
 EMBPUS,Emberiza pusilla,Pikkusirkku,Dvärgsparv,Little Bunting,1
 EMBAUR,Emberiza aureola,Kultasirkku,Gyllensparv,Yellow-breasted Bunting,1
 EMBSCH,Emberiza schoeniclus,Pajusirkku,Sävsparv,Reed Bunting,1
+ANSIND,Anser indicus,Tiibetinhanhi,Stripgås,Bar-headed goose,1
+PHACAR,Phalacrocorax carbo,Merimetso,Storskarv,Great Cormorant,1
+CIRMAC,Circus macrourus,Arosuohaukka,Stäpphök,Pallid Harrier,0
+FALVES,Falco vespertinus,Punajalkahaukka,Aftonfalk,Red-footed Falcon,0
+HIPCAL,Hippolais caligata,Pikkukultarinta,Stäppsångare,Booted Warbler,1

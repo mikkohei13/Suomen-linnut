@@ -72,7 +72,7 @@ foreach ($breedingDataArr as $number => $row)
 		else
 		{
 			// Add grid data and save
-			$new[$grid]['grid'] = $gridAdditionalData[$grid];
+			$new['grid'] = $gridAdditionalData[$grid];
 			saveGridJson($new, $grid);
 
 			// Clear new

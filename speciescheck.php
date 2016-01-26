@@ -4,6 +4,7 @@ echo "<pre>";
 
 // ----------------------------------------------------------------
 
+/*
 $atlasSpecies = file_get_contents("data/lintuatlas3-SIIVOTTU.txt");
 
 $atlasSpeciesArr = explode("\n", $atlasSpecies);
@@ -28,6 +29,7 @@ foreach ($atlasSpeciesArr as $number => $row)
 		$c++;
 	}
 }
+*/
 
 //print_r ($atlasSCI);
 
@@ -109,6 +111,8 @@ $atlas12Species = file_get_contents("data/atlas-lajit.txt");
 
 $atlas12SpeciesArr = explode("\n", $atlas12Species);
 
+$atlas12SCI = Array();
+
 foreach ($atlas12SpeciesArr as $number => $row)
 {
 	$row = trim($row);
@@ -118,21 +122,56 @@ foreach ($atlas12SpeciesArr as $number => $row)
 
 	$sci = $cells[1];
 
-	if (@$atlasSCI[$sci] == 1)
+	$atlas12SCI[$sci] = 1;
+
+/*
+	echo "Testing " . $sci . "<br />";
+
+	if (!isset($atlasSCI[$sci]))
 	{
-//				echo "FOUND from atlasSCI: /" . $cell . "/<br />";
+		echo "Missing (B) from atlasSCI: /" . $sci . "/<br />";
+	}
+	elseif ($atlasSCI[$sci] == 1)
+	{
+		echo "FOUND from atlasSCI: /" . $sci . "/<br />";
 	}
 	else
 	{
-		echo "Missing from atlasSCI: /" . $sci . "/<br />";
+		echo "Missing (A) from atlasSCI: /" . $sci . "/<br />";
 	}
-
+*/
 
 }
 
 
+$atlasSpecies = file_get_contents("data/lintuatlas3-SIIVOTTU.txt");
 
-print_r ($atlasSCI);
+$atlasSpeciesArr = explode("\n", $atlasSpecies);
+
+foreach ($atlasSpeciesArr as $number => $row)
+{
+	$row = trim($row);
+	$cells = explode("\t", $row);
+
+	$sci = $cells[3];
+
+	if (!isset($atlas12SCI[$sci]))
+	{
+		echo "Missing (B) from atlas12SCI: /" . $sci . "/<br />";
+	}
+	elseif ($atlas12SCI[$sci] == 1)
+	{
+//		echo "FOUND from atlas12SCI: /" . $sci . "/<br />";
+	}
+	else
+	{
+		echo "Missing (A) from atlas12SCI: /" . $sci . "/<br />";
+	}
+}
+
+
+
+print_r ($atlas12SCI);
 
 
 ?>

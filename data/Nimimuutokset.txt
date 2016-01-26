@@ -1,4 +1,7 @@
-FI UHEX-NIMI ATLAS-NIMI
+
+
+Uhanalaisjulkaisusta korjattuja & muutettuja nimiä
+--------------------------------------------------
 
 "liian uusia" nimiä muutettu tavallisemmiksi
 jänkäsirriäinen Calidris falcinellus -> Limicola falcinellus
@@ -22,4 +25,20 @@ tunturipöllö Bubo scandiaca -> Bubo scandiacus
 turkinkyyhky Sreptopelia decaocto -> Streptopelia decaocto
 turturikyyhky Sreptopelia turtur -> Sreptopelia turtur
 kirjosiipikäpylintu Loxia leucopterus -> Loxia leucoptera
+
+
+1 & 2 lintuatlaksesta puuttuvia nimiä, suhteessa 3. atlakseen
+-------------------------------------------------------------
+
+ANSIND,Anser indicus,Tiibetinhanhi,Stripgås,Bar-headed goose,1
+PHACAR,Phalacrocorax carbo,Merimetso,Storskarv,Great Cormorant,1
+CIRMAC,Circus macrourus,Arosuohaukka,Stäpphök,Pallid Harrier,0
+FALVES,Falco vespertinus,Punajalkahaukka,Aftonfalk,Red-footed Falcon,0
+HIPCAL,Hippolais caligata,Pikkukultarinta,Stäppsångare,Booted Warbler,1
+
+1 & 2 lintuatlaksessa virheellisiä nimiä
+----------------------------------------
+
+Sinipyrstö
+
 
