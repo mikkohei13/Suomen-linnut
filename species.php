@@ -44,13 +44,13 @@ class Species {
 
   function generateSpeciesHtml($abbr)
   {
+    $localHtml = "";
+
     // If not in species list (= rare species that are not breeding)
     if (! isset($this->speciesArr[$abbr]))
     {
       return "\n<!-- No speciesdata for $abbr -->\n\n";
     }
-
-    $localHtml = "";
 
     $fi = $this->speciesArr[$abbr]['fi'];
     $sci = $this->speciesArr[$abbr]['sci'];
@@ -59,6 +59,21 @@ class Species {
       <h4>$fi ($sci)</h4>
     ";
     $localHtml .= $this->getImageHtml($sci);
+    $localHtml .= $this->getIconsHtml($abbr);
+
+    return $localHtml;
+
+  }
+
+  function getImageHtml($sci)
+  {
+    $imageUrl = "images/species/200/" . $sci . ".jpg";
+    return "<img src='$imageUrl' alt='' />";
+  }
+
+  function getIconsHtml($abbr)
+  {
+    $localHtml = "";
 
     if ($this->speciesArr[$abbr]['atlas']['paritKaJarjestys'] > 170)
     {
@@ -92,15 +107,7 @@ class Species {
     }
 
     return $localHtml;
-
   }
-
-  function getImageHtml($sci)
-  {
-    $imageUrl = "images/species/200/" . $sci . ".jpg";
-    return "<img src='$imageUrl' alt='' />";
-  }
-
 
 
 } // end of class Vegetable
