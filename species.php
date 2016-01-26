@@ -80,7 +80,7 @@ class Species {
     else
     {
       $imageUrl = "images/species/200/" . $sci . ".jpg";
-      return "  <img src='$imageUrl' alt='' />\n";
+      return "  <span class='speciesImage'><img src='$imageUrl' alt='' /></span>\n";
     }
   }
 
