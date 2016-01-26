@@ -20,8 +20,8 @@ class Species {
 
     foreach ($this->gridArr['species'] as $abbr => $singleSpeciesArr)
     {
-      $speciesHtml = $this->generateSpeciesHtml($abbr);
-      $this->html .= $speciesHtml;
+      $withImage = TRUE;
+      $this->generateSingleSpeciesHtml($abbr, $withImage);
     }
 
   }
@@ -42,7 +42,7 @@ class Species {
   }
 
 
-  function generateSpeciesHtml($abbr)
+  function generateSingleSpeciesHtml($abbr, $withImage = TRUE)
   {
     $localHtml = "";
 
@@ -55,20 +55,30 @@ class Species {
     $fi = $this->speciesArr[$abbr]['fi'];
     $sci = $this->speciesArr[$abbr]['sci'];
 
+    if ($withImage)
+    {
+      $localHtml .= $this->getImageHtml($abbr, $sci);
+    }
+    $localHtml .= $this->getIconsHtml($abbr);
     $localHtml .= "
       <h4>$fi ($sci)</h4>
     ";
-    $localHtml .= $this->getImageHtml($sci);
-    $localHtml .= $this->getIconsHtml($abbr);
 
-    return $localHtml;
-
+    $this->html .= $localHtml;
   }
 
-  function getImageHtml($sci)
+  function getImageHtml($abbr, $sci)
   {
-    $imageUrl = "images/species/200/" . $sci . ".jpg";
-    return "<img src='$imageUrl' alt='' />";
+    // Return image only for species with large enough pvluokka
+    if ($this->gridArr['species'][$abbr]['pvluokka'] < 3)
+    {
+      return "<!--  Not image for this species -->\n";
+    }
+    else
+    {
+      $imageUrl = "images/species/200/" . $sci . ".jpg";
+      return "<img src='$imageUrl' alt='' />\n";
+    }
   }
 
   function getIconsHtml($abbr)
