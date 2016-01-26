@@ -6,6 +6,8 @@ class Species {
   var $gridArr = Array();
   var $speciesArr = Array();
   var $imagesArr = Array();
+
+  var $speciesHtmlArr = Array();
   var $html = "<!-- begin -->";
 
   function __construct()
@@ -36,9 +38,9 @@ class Species {
     return $dataArr;
   }
 
-  function getHtml()
+  function getSpeciesHtmlForPV($pvluokka)
   {
-    return $this->html;
+    return $this->speciesHtmlArr[$pvluokka];
   }
 
 
@@ -54,6 +56,7 @@ class Species {
 
     $fi = $this->speciesArr[$abbr]['fi'];
     $sci = $this->speciesArr[$abbr]['sci'];
+    $pvluokka = $this->gridArr['species'][$abbr]['pvluokka'];
 
     if ($withImage)
     {
@@ -64,7 +67,7 @@ class Species {
       <h4>$fi ($sci)</h4>
     ";
 
-    $this->html .= $localHtml;
+    @$this->speciesHtmlArr[$pvluokka] .= $localHtml;
   }
 
   function getImageHtml($abbr, $sci)
