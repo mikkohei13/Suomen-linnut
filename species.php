@@ -73,11 +73,13 @@ class Species {
   function getImageHtml($abbr, $sci)
   {
     // Return image only for species with large enough pvluokka
+    /*
     if ($this->gridArr['species'][$abbr]['pvluokka'] < 3)
     {
       return "<!--  Not image for this species -->\n";
     }
     else
+    */
     {
       $imageUrl = "images/species/200/" . $sci . ".jpg";
       return "  <span class='speciesImage'><img src='$imageUrl' alt='' /></span>\n";
@@ -88,11 +90,11 @@ class Species {
   {
     $localHtml = "";
 
-    if ($this->speciesArr[$abbr]['atlas']['paritKaJarjestys'] > 170)
+    if ($this->speciesArr[$abbr]['atlas']['paritKaJarjestys'] > 180)
     {
       $localHtml .= "  <img src='images/star-green.png' alt='harvalukuinen' class='icon greenstar'>\n";
     }
-    if ($this->speciesArr[$abbr]['atlas']['ruudutYhtJarjestys'] > 170)
+    if ($this->speciesArr[$abbr]['atlas']['ruudutYhtJarjestys'] > 180)
     {
       $localHtml .= "  <img src='images/star-blue.png' alt='harvinainen' class='icon bluestar'>\n";
     }

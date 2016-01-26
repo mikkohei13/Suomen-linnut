@@ -68,7 +68,7 @@ require_once "species.php";
 $species = new Species();
 
 echo "
-<div class='varmat'>
+<div id='varmat'>
 <h2>Varmat</h2>
 ";
 echo $species->getSpeciesHtmlForPV(4);
@@ -77,7 +77,7 @@ echo "
 ";
 
 echo "
-<div class='todennakoiset'>
+<div id='todennakoiset'>
 <h2>Todennäköiset</h2>";
 echo $species->getSpeciesHtmlForPV(3);
 echo "
@@ -85,7 +85,7 @@ echo "
 ";
 
 echo "
-<div class='mahdolliset'>
+<div id='mahdolliset'>
 <h2>Mahdolliset</h2>";
 echo $species->getSpeciesHtmlForPV(2);
 echo "
