@@ -7,6 +7,7 @@ require_once "species.php";
 
 $species = new Species();
 
+echo $species->getHtml();
 echo "END";
 
 

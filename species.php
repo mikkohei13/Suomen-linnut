@@ -6,6 +6,7 @@ class Species {
   var $gridArr = Array();
   var $speciesArr = Array();
   var $imagesArr = Array();
+  var $html = "<!-- begin -->";
 
   function __construct()
   {
@@ -20,7 +21,7 @@ class Species {
     foreach ($this->gridArr['species'] as $abbr => $singleSpeciesArr)
     {
       $speciesHtml = $this->generateSpeciesHtml($abbr);
-      echo $speciesHtml;
+      $this->html .= $speciesHtml;
     }
 
   }
@@ -35,12 +36,18 @@ class Species {
     return $dataArr;
   }
 
+  function getHtml()
+  {
+    return $this->html;
+  }
+
 
   function generateSpeciesHtml($abbr)
   {
+    // If not in species list (= rare species that are not breeding)
     if (! isset($this->speciesArr[$abbr]))
     {
-      return "<!-- No speciesdata for $abbr -->";
+      return "\n<!-- No speciesdata for $abbr -->\n\n";
     }
 
     $localHtml = "";
@@ -48,12 +55,10 @@ class Species {
     $fi = $this->speciesArr[$abbr]['fi'];
     $sci = $this->speciesArr[$abbr]['sci'];
 
-    $imageUrl = "images/species/200/" . $sci . ".jpg";
-
     $localHtml .= "
       <h4>$fi ($sci)</h4>
-      <img src='$imageUrl' alt='' />
     ";
+    $localHtml .= $this->getImageHtml($sci);
 
     if ($this->speciesArr[$abbr]['atlas']['paritKaJarjestys'] > 170)
     {
@@ -88,6 +93,12 @@ class Species {
 
     return $localHtml;
 
+  }
+
+  function getImageHtml($sci)
+  {
+    $imageUrl = "images/species/200/" . $sci . ".jpg";
+    return "<img src='$imageUrl' alt='' />";
   }
 
 
