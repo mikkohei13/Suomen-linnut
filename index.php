@@ -16,7 +16,7 @@ div
 	float: left;
 	width: 220px;
 	max-width: 50%;
-	height: 185px;
+	height: 180px;
 	overflow: hidden;
 }
 
@@ -31,7 +31,7 @@ div
 .icon
 {
 	position: absolute;
-	top: 125px;
+	top: 120px;
 	left: 2px;
 	width: 25px;
 	height: 25px;
@@ -49,7 +49,7 @@ div
 
 h4
 {
-	margin: 15px 0 0 0;
+	margin: 10px 0 0 0;
 }
 
 h2
