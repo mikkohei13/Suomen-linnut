@@ -40,7 +40,14 @@ class Species {
 
   function getSpeciesHtmlForPV($pvluokka)
   {
-    return $this->speciesHtmlArr[$pvluokka];
+    if (isset($this->speciesHtmlArr[$pvluokka]))
+    {
+      return $this->speciesHtmlArr[$pvluokka];
+    }
+    else
+    {
+      return "<span class='nospecies'>Ei lajeja</span>";
+    }
   }
 
 
