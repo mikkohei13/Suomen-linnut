@@ -22,6 +22,8 @@ function handlePosition(position) {
 //    alert("Latitude: " + data.N + ", Longitude: " + data.E);
 
     $( "#content" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
+    $( "#pagetitle" ).html( "Ruutu " + data.N + ":" + data.E );
+
 
 });
 

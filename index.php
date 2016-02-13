@@ -19,11 +19,14 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">Suomen linnut</h1>
+                <h2 class="title">Suomen linnut</h2>
             </header>
         </div>
 
         <div class="main-container">
+
+            <h1 id='pagetitle'>PLACEHOLDER</h1>
+
             <div class="main wrapper clearfix" id="content">
 
 <!--
