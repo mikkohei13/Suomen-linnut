@@ -1,4 +1,16 @@
 
+Toimintalogiikka
+----------------
+
+index.php
+Sivupohja, yleinen rakenne. Lataa allspecies.php:n jQuerylla.
+
+allspecies.php
+Sivun osan pohja, linnut. Includes allspecies_class.
+
+allspecies_class.php
+Skripti, joka hakee lintujen tiedot json-tiedostoista.
+
 
 Data
 ----
