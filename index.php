@@ -24,8 +24,9 @@
         </div>
 
         <div class="main-container">
-            <div class="main wrapper clearfix">
+            <div class="main wrapper clearfix" id="content">
 
+<!--
                 <article>
                     <header>
                         <h1>article header h1</h1>
@@ -44,6 +45,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
                     </footer>
                 </article>
+-->
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -58,6 +60,9 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+        <script>
+            $( "#content" ).load( "allspecies.php?grid=770:327" );
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
