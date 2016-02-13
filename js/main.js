@@ -4,7 +4,7 @@
 if (navigator.geolocation) {
   var timeoutVal = 10 * 1000 * 1000;
   navigator.geolocation.getCurrentPosition(
-    displayPosition, 
+    handlePosition, 
     displayError,
     { enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0 }
   );
@@ -13,8 +13,19 @@ else {
   alert("Geolocation is not supported by this browser");
 }
 
-function displayPosition(position) {
-  alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
+function handlePosition(position) {
+//	http://127.0.0.1:4567/suomenlinnut/conversionwrapper.php?n=60&e=25
+
+  $.getJSON("http://127.0.0.1:4567/suomenlinnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude, function(data) {
+    //data is the JSON string
+    console.log(data)
+//    alert("Latitude: " + data.N + ", Longitude: " + data.E);
+
+    $( "#content" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
+
+});
+
+//  alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
 }
 
 function displayError(error) {
