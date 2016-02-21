@@ -1,4 +1,9 @@
 
+HTML5 site that retrieves the user's location and displays which birds are nesting auround her, with photographs and some information on distribution, abundance and endangeredness. Uses open distribution data from Finnish Bird Atlas.
+
+Sivusto, joka hakee käyttäjän sijainnin ja näyttää mitä lintuja hänen ympärillään pesii. Lajeista näytetään valokuva sekä tietoja levinneisyydestä, runsaudesta ja uhanalaisuudesta. Levinneisyysdata perustuu Suomen 3. lintuatlaksen avoimeen aineistoon.
+
+
 Toimintalogiikka
 ----------------
 
