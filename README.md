@@ -27,7 +27,8 @@ Julkaiseminen
 -------------
 
 Ennen julkaisua
-- korjaa conversiowrapper:in URL main.js-tiedostossa.
+- korjaa conversiowrapper:in URL main.js-tiedostossa
+- Luo griddata-hakemisto ja generoi sisältö
 - MUST-asiat alta
 
 TODO & ideat
