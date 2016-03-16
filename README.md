@@ -27,6 +27,7 @@ Julkaiseminen
 -------------
 
 Ennen julkaisua
+- Kuvat
 - korjaa conversiowrapper:in URL main.js-tiedostossa
 - Luo griddata-hakemisto ja generoi sisältö
 - MUST-asiat alta
@@ -36,10 +37,10 @@ TODO & ideat
 DONE
 - Perus-geolocation
 - Virheilmojen käännös suomeksi
+- GET security at allspecies_class
 
 MUST (ennen julkaisua)
 - Ruudun metatietojen lataaminen
-- GET security at allspecies_class
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
 - Jos selain ei tue paikannusta -> ilmoitus sivulle ja linkki manuaaliseen listaan
