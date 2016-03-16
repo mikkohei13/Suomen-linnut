@@ -12,6 +12,7 @@ class Allspecies {
 
   function __construct()
   {
+    // TEMPORARY
     // Todo: security
     $grid = $_GET['grid'];
     $gridCoord = explode(":", $grid);
@@ -30,6 +31,7 @@ class Allspecies {
 
   }
 
+  // Gets a JSON datafile and decodes it
   function getJsonData($jsonFilename)
   {
     $json = file_get_contents($jsonFilename);
@@ -40,6 +42,7 @@ class Allspecies {
     return $dataArr;
   }
 
+  // Returns a HTML species list for given PV-luokka
   function getSpeciesHtmlForPV($pvluokka)
   {
     if (isset($this->speciesHtmlArr[$pvluokka]))
@@ -52,7 +55,7 @@ class Allspecies {
     }
   }
 
-
+  // Generates HTML for a species
   function generateSingleSpeciesHtml($abbr, $withImage = TRUE)
   {
     $localHtml = "";
@@ -79,6 +82,7 @@ class Allspecies {
     @$this->speciesHtmlArr[$pvluokka] .= $localHtml;
   }
 
+  // Returns image HTML for a species
   function getImageHtml($abbr, $sci)
   {
     // Return image only for species with large enough pvluokka
@@ -95,6 +99,7 @@ class Allspecies {
     }
   }
 
+  // Gets icon image HTML for a species
   function getIconsHtml($abbr)
   {
     $localHtml = "";
@@ -125,4 +130,4 @@ class Allspecies {
   }
 
 
-} // end of class Vegetable
+} // end of class

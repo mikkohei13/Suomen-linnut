@@ -8,13 +8,47 @@ Toimintalogiikka
 ----------------
 
 index.php
-Sivupohja, yleinen rakenne. Lataa allspecies.php:n jQuerylla.
+Sivupohja, yleinen HTML-rakenne. Lataa allspecies.php:n jQuerylla.
 
 allspecies.php
-Sivun osan pohja, linnut. Includes allspecies_class.
+Lintuluettelo-HTML. Includes allspecies_class.
 
 allspecies_class.php
 Skripti, joka hakee lintujen tiedot json-tiedostoista.
+
+js/main.js
+Javascriptit
+
+conversionwrapper.php
+Tekee koordinaattimuunnoksen (wgs84 -> ykj) Luomuksen rajapinnassa.
+
+
+Julkaiseminen
+-------------
+
+Ennen julkaisua
+- korjaa conversiowrapper:in URL main.js-tiedostossa.
+- MUST-asiat alta
+
+TODO & ideat
+------------
+
+MUST (ennen julkaisua)
+- Perus-geolocation
+- GET security at allspecies_class
+- Ulkoasu
+- Kuvien croppaus samanmuotoisiksi
+
+SHOULD
+- Lajien välillä liikkuminen (prev, next) ko. ruudun alueella
+- Parempi ulkoasu
+
+NICE
+- Huomaa siirtymisen uudelle ruudulle
+- Erikoisuuden laskeminen lähiruutujen avulla (ja rannikko huomioiden)
+- abbr ja sci -nimien yhtenäisempi käyttö
+
+
 
 
 Data
