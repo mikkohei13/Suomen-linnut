@@ -1,6 +1,7 @@
 <?php
 
-// base class with member properties and methods
+// Class that generates species list HTML
+
 class Allspecies {
 
   var $gridArr = Array();
@@ -12,8 +13,7 @@ class Allspecies {
 
   function __construct()
   {
-    // TEMPORARY
-    // Todo: security
+    // TODO: security
     $grid = $_GET['grid'];
     $gridCoord = explode(":", $grid);
     $n = substr($gridCoord[0], 0, 3);

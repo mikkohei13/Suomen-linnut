@@ -16,7 +16,7 @@ else {
 function handlePosition(position) {
 //	http://127.0.0.1:4567/suomenlinnut/conversionwrapper.php?n=60&e=25
 
-  $.getJSON("http://127.0.0.1:4567/suomenlinnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude, function(data) {
+  $.getJSON("http://192.168.56.10/suomen-linnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude, function(data) {
     //data is the JSON string
     console.log(data)
 //    alert("Latitude: " + data.N + ", Longitude: " + data.E);
