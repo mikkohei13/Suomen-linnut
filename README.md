@@ -33,18 +33,23 @@ Ennen julkaisua
 
 TODO & ideat
 ------------
+DONE
+- Perus-geolocation
+- Virheilmojen käännös suomeksi
 
 MUST (ennen julkaisua)
-- Perus-geolocation
+- Ruudun metatietojen lataaminen
 - GET security at allspecies_class
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
 - Jos selain ei tue paikannusta -> ilmoitus sivulle ja linkki manuaaliseen listaan
+- Virheilmot dokumenttiin, ei alertina
 
 SHOULD
 - Lajien välillä liikkuminen (prev, next) ko. ruudun alueella
 - Parempi ulkoasu
 - Manuaalinen lista ruuduista, miten?
+- Kartta ruudusta (simppeli)
 
 NICE
 - Huomaa siirtymisen uudelle ruudulle
