@@ -39,10 +39,12 @@ MUST (ennen julkaisua)
 - GET security at allspecies_class
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
+- Jos selain ei tue paikannusta -> ilmoitus sivulle ja linkki manuaaliseen listaan
 
 SHOULD
 - Lajien välillä liikkuminen (prev, next) ko. ruudun alueella
 - Parempi ulkoasu
+- Manuaalinen lista ruuduista, miten?
 
 NICE
 - Huomaa siirtymisen uudelle ruudulle
