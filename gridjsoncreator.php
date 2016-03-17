@@ -25,16 +25,17 @@ foreach ($gridDataArr as $number => $row)
 	$grid = $cells[1] . $cells[2];
 
 	$gridAdditionalData[$grid]['alueNumero'] = $cells[3];
-	$gridAdditionalData[$grid]['yhdistys'] = $cells[4];
-	$gridAdditionalData[$grid]['kunta'] = $cells[5];
-	$gridAdditionalData[$grid]['ruudunNimi'] = $cells[6];
-	$gridAdditionalData[$grid]['level1'] = $cells[7];
-	$gridAdditionalData[$grid]['level2'] = $cells[8];
-	$gridAdditionalData[$grid]['level3'] = $cells[9];
-	$gridAdditionalData[$grid]['level4'] = $cells[10];
-	$gridAdditionalData[$grid]['level5'] = $cells[11];
-	$gridAdditionalData[$grid]['activitySum'] = $cells[12];
-	$gridAdditionalData[$grid]['activityCategory'] = $cells[12];
+	$gridAdditionalData[$grid]['yhdistysFI'] = $cells[4];
+	$gridAdditionalData[$grid]['yhdistysSV'] = $cells[5];
+	$gridAdditionalData[$grid]['kunta'] = $cells[6];
+	$gridAdditionalData[$grid]['ruudunNimi'] = $cells[7];
+	$gridAdditionalData[$grid]['level1'] = $cells[8];
+	$gridAdditionalData[$grid]['level2'] = $cells[9];
+	$gridAdditionalData[$grid]['level3'] = $cells[10];
+	$gridAdditionalData[$grid]['level4'] = $cells[11];
+	$gridAdditionalData[$grid]['level5'] = $cells[12];
+	$gridAdditionalData[$grid]['activitySum'] = $cells[13];
+	$gridAdditionalData[$grid]['activityCategory'] = $cells[14];
 }
 
 print_r ($gridAdditionalData);
