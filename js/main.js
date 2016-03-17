@@ -32,7 +32,10 @@ function updatePage(data)
     console.log(data);
 
     $( "#content" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
-    $( "#pagetitle" ).html( "Ruutu " + data.N + ":" + data.E ); // TODO: load metadata class 
+
+    var griN = data.N.toString();
+    var griE = data.E.toString();
+    $( "#pagetitle" ).html( "Ruutu " + griN.substring(0, 3) + ":" + griN.substring(0, 3) ); // TODO: load metadata class 
 }
 
 function displayError(error) {
