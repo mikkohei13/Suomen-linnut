@@ -2,19 +2,18 @@
 // http://html5doctor.com/finding-your-position-with-geolocation/
 
 if (navigator.geolocation) {
-  var timeoutVal = 10 * 1000 * 1000;
   navigator.geolocation.getCurrentPosition(
     handlePosition, 
     displayError,
     {
-      enableHighAccuracy: true,
-      timeout: timeoutVal,
-      maximumAge: 0
+      enableHighAccuracy: false,
+      timeout: 10000, // ms
+      maximumAge: 10000 // ms
     }
   );
 }
 else {
-  $( ".header-container" ).append( "<span class='alert'>Selaimesi ei valitettavasti tue paikannusta</span>" );
+  $( "#main-container" ).prepend( "<span class='alert'>Selaimesi ei valitettavasti tue paikannusta</span>" );
   console.log("navigator.geolocation not supported");
 }
 
@@ -31,7 +30,7 @@ function updatePage(data)
     //data is a JSON string
     console.log(data);
 
-    $( "#content" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
+    $( "#main-container" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
 
     var griN = data.N.toString();
     var griE = data.E.toString();
@@ -45,7 +44,7 @@ function displayError(error) {
     3: 'Sijainnin hakeminen kesti liian kauan. Tarkista että puhelimesi GPS on päällä.'
   };
   console.log(errors[error.code]);
-  $( ".header-container" ).append( "<span class='alert'>" +  errors[error.code] + "</span>" );
+  $( "#main-container" ).prepend( "<span class='alert'>" +  errors[error.code] + "</span>" );
 }
 
 /*

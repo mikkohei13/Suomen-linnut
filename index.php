@@ -18,17 +18,13 @@
     </head>
     <body>
 
-        <div class="header-container">
+        <div id="header-container">
             <header class="wrapper clearfix">
                 <h2 class="title">Suomen linnut</h2>
             </header>
         </div>
 
-        <div class="main-container">
-
-            <h1 id='pagetitle'>PLACEHOLDER FOR GRID</h1>
-
-            <div class="main wrapper clearfix" id="content">
+        <div id="main-container">
 
 <!--
                 <article>
@@ -51,7 +47,7 @@
                 </article>
 -->
 
-            </div> <!-- #main -->
+
         </div> <!-- #main-container -->
 
         <div class="footer-container">
