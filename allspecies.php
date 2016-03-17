@@ -13,7 +13,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 
 	echo "
 	<div id='varmat'>
-	<h2>Varmat</h2>
+	<h2>Varmasti pesivät</h2>
 	";
 	echo $allspecies->getSpeciesHtmlForPV(4);
 	echo "
@@ -22,7 +22,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 
 	echo "
 	<div id='todennakoiset'>
-	<h2>Todennäköiset</h2>";
+	<h2>Todennäköisesti pesivät</h2>";
 	echo $allspecies->getSpeciesHtmlForPV(3);
 	echo "
 	</div>
@@ -30,7 +30,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 
 	echo "
 	<div id='mahdolliset'>
-	<h2>Mahdolliset</h2>";
+	<h2>Mahdollisesti pesivät</h2>";
 	echo $allspecies->getSpeciesHtmlForPV(2);
 	echo "
 	</div>

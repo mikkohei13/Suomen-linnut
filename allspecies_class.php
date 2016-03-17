@@ -150,24 +150,24 @@ class Allspecies {
 
     if ($this->speciesArr[$abbr]['atlas']['paritKaJarjestys'] > 180)
     {
-      $localHtml .= "  <img src='images/star-green.png' alt='harvalukuinen' class='icon greenstar'>\n";
+      $localHtml .= "  <img src='images/star-green.png' alt='harvalukuinen' title='harvalukuinen' class='icon greenstar'>\n";
     }
     if ($this->speciesArr[$abbr]['atlas']['ruudutYhtJarjestys'] > 180)
     {
-      $localHtml .= "  <img src='images/star-blue.png' alt='harvinainen' class='icon bluestar'>\n";
+      $localHtml .= "  <img src='images/star-blue.png' alt='harvinainen' title='harvinainen' class='icon bluestar'>\n";
     }
 
     if (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "CR")
     {
-      $localHtml .= "  <img src='images/cr.png' alt='äärimmäisen uhanalainen' class='icon cr'>\n";
+      $localHtml .= "  <img src='images/cr.png' alt='äärimmäisen uhanalainen' title='äärimmäisen uhanalainen' class='icon cr'>\n";
     }
     elseif (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "EN")
     {
-      $localHtml .= "  <img src='images/en.png' alt='erittäin uhanalainen' class='icon en'>\n";
+      $localHtml .= "  <img src='images/en.png' alt='erittäin uhanalainen' title='erittäin uhanalainen' class='icon en'>\n";
     }
     elseif (@$this->speciesArr[$abbr]['uhex']['luokka2015'] == "VU")
     {
-      $localHtml .= "  <img src='images/vu.png' alt='vaarantunut' class='icon vu'>\n";
+      $localHtml .= "  <img src='images/vu.png' alt='vaarantunut' title='vaarantunut' class='icon vu'>\n";
     }
 
     return $localHtml;
