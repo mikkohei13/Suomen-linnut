@@ -227,7 +227,8 @@ nav a:hover {
 
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
+            width: auto;
+        margin: 0;
     }
 }
 
