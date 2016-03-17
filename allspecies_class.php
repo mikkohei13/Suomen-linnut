@@ -9,6 +9,7 @@ class Allspecies {
   var $imagesArr = Array();
 
   var $speciesHtmlArr = Array();
+  var $gridSpeciesCountArr = Array();
 
   function __construct()
   {
@@ -49,8 +50,32 @@ class Allspecies {
 
   function getGridHtml()
   {
+    $speciesTotal = $this->gridSpeciesCountArr[2] + $this->gridSpeciesCountArr[3] + $this->gridSpeciesCountArr[4];
+
+    switch ($this->gridArr['grid']['activityCategory']) {
+      case 5:
+        $activityCategoryName = "erinomaisesti";
+        break;
+      case 4:
+        $activityCategoryName = "hyvin";
+        break;
+      case 3:
+        $activityCategoryName = "tyydyttävästi";
+        break;
+      case 2:
+        $activityCategoryName = "välttävästi";
+        break;      
+      default:
+        $activityCategoryName = "huonosti"; // = satunnaishavaintoja
+        break;
+    }
+    $activityCategory =
+
+    $localHtml = "<p>Tällä alueella (" . $this->gridArr['grid']['kunta'] . ", " . $this->gridArr['grid']['ruudunNimi'] . ") pesii " . $this->gridSpeciesCountArr[4] . "-" . $speciesTotal . " lintulajia. Alueen linnusto tunnetaan " . $activityCategoryName . ".</p>";
+
     echo "<pre>";    print_r($this->gridArr['grid']);    echo "</pre>"; // debug
 
+    return $localHtml;
   }
 
   // Returns a HTML species list for given PV-luokka
@@ -91,6 +116,7 @@ class Allspecies {
     $localHtml .= "</div>\n\n";
 
     @$this->speciesHtmlArr[$pvluokka] .= $localHtml;
+    @$this->gridSpeciesCountArr[$pvluokka]++;
   }
 
   // Returns image HTML for a species
