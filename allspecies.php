@@ -26,6 +26,12 @@ div
 	width: 200px;
 	height: 133px;
 	overflow: hidden;
+		background-color: #cfc;
+}
+
+.speciesImage img
+{
+		display: none;
 }
 
 .icon
