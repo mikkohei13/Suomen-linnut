@@ -42,20 +42,23 @@ DONE
 - Virheilmojen käännös suomeksi
 - GET security at allspecies_class
 - Virheilmot dokumenttiin, ei alertina
+- Hallitse tilanne jossa 0 lajia uahanalaisia
+- Jos selain ei tue paikannusta -> ilmoitus sivulle 
+- Ruudun metatietojen lataaminen
 
 MUST (ennen julkaisua)
-- Ruudun metatietojen lataaminen
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
-- Jos selain ei tue paikannusta -> ilmoitus sivulle ja linkki manuaaliseen listaan
-- Hallitse tilanne jossa 0 lajia uahanalaisia
+- Datalähteet
 
 SHOULD
+- Taustatiedot (selvitystapa, ruudut)
 - Lajin tiedot modaaliin
 - Lajien välillä liikkuminen (prev, next) ko. ruudun alueella
 - Parempi ulkoasu
 - Manuaalinen lista ruuduista, miten?
 - Kartta ruudusta (simppeli)
+- os selain ei tue paikannusta -> ja linkki manuaaliseen listaan
 
 NICE
 - Huomaa siirtymisen uudelle ruudulle

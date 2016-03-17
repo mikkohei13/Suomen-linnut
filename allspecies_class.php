@@ -56,8 +56,7 @@ class Allspecies {
   function getGridHtml()
   {
     $speciesTotal = $this->gridSpeciesCountArr[2] + $this->gridSpeciesCountArr[3] + $this->gridSpeciesCountArr[4];
-    $endangeredTotal = $this->gridSpeciesEndangeredArr['VU'] + $this->gridSpeciesEndangeredArr['EN'] + $this->gridSpeciesEndangeredArr['CR'];
-    // TODO: if not endangered species?
+    $endangeredTotal = @$this->gridSpeciesEndangeredArr['VU'] + @$this->gridSpeciesEndangeredArr['EN'] + @$this->gridSpeciesEndangeredArr['CR'];
 
     switch ($this->gridArr['grid']['activityCategory']) {
       case 5:
