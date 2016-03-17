@@ -9,6 +9,8 @@ $allspecies = new Allspecies();
 
 echo "<h1 id='pagetitle'>PLACEHOLDER FOR GRID</h1>";
 
+echo $allspecies->getGridHtml();
+
 echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 
 	echo "
