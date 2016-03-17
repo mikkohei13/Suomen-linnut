@@ -48,6 +48,7 @@ MUST (ennen julkaisua)
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
 - Jos selain ei tue paikannusta -> ilmoitus sivulle ja linkki manuaaliseen listaan
+- Hallitse tilanne jossa 0 lajia uahanalaisia
 
 SHOULD
 - Lajin tiedot modaaliin

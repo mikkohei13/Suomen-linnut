@@ -7,8 +7,6 @@ header('Content-Type: text/html; charset=utf-8');
 require_once "allspecies_class.php";
 $allspecies = new Allspecies();
 
-echo "<h1 id='pagetitle'>PLACEHOLDER FOR GRID</h1>";
-
 echo $allspecies->getGridHtml();
 
 echo "<div class=\"main wrapper clearfix\" id=\"content\">";
