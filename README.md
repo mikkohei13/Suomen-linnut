@@ -22,6 +22,9 @@ Javascriptit
 conversionwrapper.php
 Tekee koordinaattimuunnoksen (wgs84 -> ykj) Luomuksen rajapinnassa.
 
+gridjsoncreator.php
+Generoi ruutukohtaiset JSON-tiedostot tekstitaulukkodatasta.
+
 
 Julkaiseminen
 -------------
@@ -38,15 +41,16 @@ DONE
 - Perus-geolocation
 - Virheilmojen käännös suomeksi
 - GET security at allspecies_class
+- Virheilmot dokumenttiin, ei alertina
 
 MUST (ennen julkaisua)
 - Ruudun metatietojen lataaminen
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
 - Jos selain ei tue paikannusta -> ilmoitus sivulle ja linkki manuaaliseen listaan
-- Virheilmot dokumenttiin, ei alertina
 
 SHOULD
+- Lajin tiedot modaaliin
 - Lajien välillä liikkuminen (prev, next) ko. ruudun alueella
 - Parempi ulkoasu
 - Manuaalinen lista ruuduista, miten?
@@ -56,8 +60,7 @@ NICE
 - Huomaa siirtymisen uudelle ruudulle
 - Erikoisuuden laskeminen lähiruutujen avulla (ja rannikko huomioiden)
 - abbr ja sci -nimien yhtenäisempi käyttö
-
-
+- Lajin peruskuvaus lsjifi:sta tai Wikipediasta
 
 
 Data
@@ -74,4 +77,20 @@ Suomen 1., 2. ja 3. lintuatlaksen tulokset. Luonnontieteellinen keskusmuseo Luom
 
 Valkama, Jari, Vepsäläinen, Ville & Lehikoinen, Aleksi 2011: Suomen III Lintuatlas. – Luonnontieteellinen keskusmuseo ja ympäristöministeriö. <http://atlas3.lintuatlas.fi> (viitattu 24.1.2015) ISBN 978-952-10-6918-5
 
+
+Tekstisuunnitelmia
+------------------
+
+Grid
+
+Tällä alueella (Kirkkonummi, Kirkkonummen keskusta) pesii 99-135 lintulajia, joista 22 on uhanalaisia. Alueen linnusto tunnetaan erinomaisesti. (Lue lisää miten linnustoa tutkittiin &raquo;)
+
+
+Species
+
+Hömötiainen (<em>Parus montanus</em>)
+Elää ensisijassa metsissä, mutta myös ...
+Uhanalainen (vaarantunut) - uhanalaistumisen syynä tehometsätalous.
+Harvinainen, esiintyy vain pienellä osalla tutkimusruuduista.
+Harvalukuinen...
 
