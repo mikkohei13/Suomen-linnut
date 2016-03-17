@@ -73,7 +73,7 @@ class Allspecies {
 
     $localHtml = "<p>Tällä alueella (" . $this->gridArr['grid']['kunta'] . ", " . $this->gridArr['grid']['ruudunNimi'] . ") pesii " . $this->gridSpeciesCountArr[4] . "-" . $speciesTotal . " lintulajia. Alueen linnusto tunnetaan " . $activityCategoryName . ".</p>";
 
-    echo "<pre>";    print_r($this->gridArr['grid']);    echo "</pre>"; // debug
+//    echo "<pre>";    print_r($this->gridArr['grid']);    echo "</pre>"; // debug
 
     return $localHtml;
   }

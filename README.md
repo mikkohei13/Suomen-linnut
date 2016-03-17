@@ -60,7 +60,8 @@ NICE
 - Huomaa siirtymisen uudelle ruudulle
 - Erikoisuuden laskeminen lähiruutujen avulla (ja rannikko huomioiden)
 - abbr ja sci -nimien yhtenäisempi käyttö
-- Lajin peruskuvaus lsjifi:sta tai Wikipediasta
+- Lajin peruskuvaus laji.fi:sta tai Wikipediasta
+- Paikallisyhdistys ja linkki verkkosivuille ("Liity jäseneksi jos lintu- tai luontoharrastus kiinnostaa!") utm_source=suomenlinnut
 
 
 Data
