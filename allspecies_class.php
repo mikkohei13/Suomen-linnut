@@ -99,7 +99,7 @@ class Allspecies {
     */
     {
       $imageUrl = "images/species/200/" . $sci . ".jpg";
-      return "  <span class='speciesImage'><img src='$imageUrl' alt='' /></span>\n";
+      return "  <span class='speciesImage'><!--TEMPORARILY HIDDEN<img src='$imageUrl' alt='' />--></span>\n";
     }
   }
 

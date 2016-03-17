@@ -20,29 +20,29 @@ else {
 
 function handlePosition(position) {
 //	e.g. ... conversionwrapper.php?n=60&e=25
+  $.getJSON(
+    "http://192.168.56.10/suomen-linnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude,
+    updatePage
+  );
+}
 
-  $.getJSON("http://192.168.56.10/suomen-linnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude, function(data) {
-    //data is the JSON string
+function updatePage(data)
+{
+    //data is a JSON string
     console.log(data);
 
     $( "#content" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
-    $( "#pagetitle" ).html( "Ruutu " + data.N + ":" + data.E ); // TODO: load metadata class
-
-
-});
-
-//  alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
+    $( "#pagetitle" ).html( "Ruutu " + data.N + ":" + data.E ); // TODO: load metadata class 
 }
 
 function displayError(error) {
   var errors = { 
-    1: 'Olet kieltänyt paikannustiedon käytön',
-    2: 'Sijainti ei ole saatavilla',
-    3: 'Toiminnon aikakatkaisu'
+    1: 'Olet kieltänyt paikannustiedon käytön. Salli se ja yritä uudelleen.',
+    2: 'Sijaintia ei pystytty hakemaan. Siirry paikkaan, josta on esteettömämpi näkymä taivaalle.',
+    3: 'Sijainnin hakeminen kesti liian kauan. Tarkista että puhelimesi GPS on päällä.'
   };
-  var errorMessage = "Virhe: " + errors[error.code] + " koodi " + error.code;
-  console.log(errorMessage);
-  alert(errorMessage); // TODO: write into document
+  console.log(errors[error.code]);
+  $( ".header-container" ).append( "<span class='alert'>" +  errors[error.code] + "</span>" );
 }
 
 /*
