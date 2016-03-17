@@ -50,6 +50,7 @@ MUST (ennen julkaisua)
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
 - Datalähteet
+- Handle coordinates outside Finland
 
 SHOULD
 - Taustatiedot (selvitystapa, ruudut)
