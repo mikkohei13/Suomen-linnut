@@ -26,7 +26,7 @@
 
         <div class="main-container">
 
-            <h1 id='pagetitle'>PLACEHOLDER</h1>
+            <h1 id='pagetitle'>PLACEHOLDER FOR GRID</h1>
 
             <div class="main wrapper clearfix" id="content">
 

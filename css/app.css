@@ -6,6 +6,13 @@ div
 	text-align: center;
 }
 
+.alert
+{
+	background-color: #ffc;
+	display: block;
+	padding: 0.5em;
+}
+
 .species
 {
 	position: relative;

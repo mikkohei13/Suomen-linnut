@@ -14,7 +14,7 @@ if (navigator.geolocation) {
   );
 }
 else {
-  alert("Selaimesi ei valitettavasti tue paikannusta"); // TODO: write into document
+  $( ".header-container" ).append( "<span class='alert'>Selaimesi ei valitettavasti tue paikannusta</span>" );
   console.log("navigator.geolocation not supported");
 }
 
