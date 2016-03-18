@@ -52,7 +52,21 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>footer</h3>
+                <h3>Tietolähteet</h3>
+
+
+<h4>Levinneisyystiedot</h4>
+
+<p><strong>Suomen 1., 2. ja 3. lintuatlaksen tulokset</strong>. Luonnontieteellinen keskusmuseo Luomus, Helsingin yliopisto. Käyttö <a href="http://creativecommons.org/licenses/by/4.0/deed.fi">Creative Commons Nimeä 4.0</a> -lisenssillä.</p>
+
+<p>Valkama, Jari, Vepsäläinen, Ville & Lehikoinen, Aleksi 2011: <strong>Suomen III Lintuatlas</strong>. – Luonnontieteellinen keskusmuseo ja ympäristöministeriö. <a href="http://atlas3.lintuatlas.fi">http://atlas3.lintuatlas.fi</a> (viitattu 24.1.2015) ISBN 978-952-10-6918-5</p>
+
+<h4>Uhanalaisuustiedot</h4>
+
+<p>Tiainen, Juha; Mikkola-Roos, Markku; Below, Antti; Jukarainen, Aili; Lehikoinen, Aleksi; Lehtiniemi, Teemu; Pessa, Jorma; Rajasärkkä, Ari; Rintala, Jukka; Sirkiä, Päivi; Valkama, Jari 2015: <strong>Suomen lintujen uhanalaisuus 2015</strong>. <a href="http://hdl.handle.net/10138/159435 ISBN 978-952-11-4552-0">http://hdl.handle.net/10138/159435 ISBN 978-952-11-4552-0</a></p>
+
+
+
             </footer>
         </div>
 

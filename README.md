@@ -47,14 +47,15 @@ DONE
 - Jos selain ei tue paikannusta -> ilmoitus sivulle 
 - Ruudun metatietojen lataaminen
 - Handle coordinates outside Finland
+- Datalähteet
 
 MUST (ennen julkaisua)
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
-- Datalähteet
 
 SHOULD
 - Logging
+- Yksinkertaista CSS
 - Taustatiedot (selvitystapa, ruudut)
 - Lajin tiedot modaaliin
 - Lajien välillä liikkuminen (prev, next) ko. ruudun alueella
