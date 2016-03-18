@@ -31,6 +31,7 @@ Julkaiseminen
 
 Ennen julkaisua
 - Kuvat
+- Google Analytics code
 - korjaa conversiowrapper:in URL main.js-tiedostossa
 - Luo griddata-hakemisto ja generoi sisältö
 - MUST-asiat alta
@@ -42,17 +43,18 @@ DONE
 - Virheilmojen käännös suomeksi
 - GET security at allspecies_class
 - Virheilmot dokumenttiin, ei alertina
-- Hallitse tilanne jossa 0 lajia uahanalaisia
+- Hallitse tilanne jossa 0 lajia uhaanalaisia
 - Jos selain ei tue paikannusta -> ilmoitus sivulle 
 - Ruudun metatietojen lataaminen
+- Handle coordinates outside Finland
 
 MUST (ennen julkaisua)
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
 - Datalähteet
-- Handle coordinates outside Finland
 
 SHOULD
+- Logging
 - Taustatiedot (selvitystapa, ruudut)
 - Lajin tiedot modaaliin
 - Lajien välillä liikkuminen (prev, next) ko. ruudun alueella

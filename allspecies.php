@@ -7,7 +7,7 @@ header('Content-Type: text/html; charset=utf-8');
 require_once "allspecies_class.php";
 $allspecies = new Allspecies();
 
-echo $allspecies->getGridHtml();
+echo $allspecies->getMetaHtml();
 
 echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 
