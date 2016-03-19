@@ -58,6 +58,7 @@ SHOULD
 - Help (slide in: http://jsfiddle.net/bR6Fs/)
 	- harvinaisuus, harvalukuisuus, uhanalaisuus?
 	- ruutu, selvitystapa, linkki lisätietoihin
+- Missing images? Ansery, muut?
 - Logging
 - Yksinkertaista CSS
 - Taustatiedot (selvitystapa, ruudut)
