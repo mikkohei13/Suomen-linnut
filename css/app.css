@@ -9,7 +9,6 @@ body
 {
 	background-color: #1976D2;
 	color: #fff;
-	padding: 10px;
 }
 
 #header-container h2
@@ -30,16 +29,25 @@ body
 	margin: -10px 5px -3px 0px;
 }
 
-#main-container
+#header-container,
+#help-container,
+#main-container,
+#footer-container
 {
 	padding: 10px;
 }
 
-.alert
+#error-container div
 {
 	background-color: #ffc;
-	display: block;
-	padding: 0.5em;
+	padding: 10px;
+}
+
+/* Temporarily hidden */
+#help-container,
+#helplink
+{
+	display: none;
 }
 
 .species
@@ -94,7 +102,6 @@ h2
 {
 	background-color: #2196F3;
 	color: #fff;
-	padding: 10px;
 }
 
 #footer-container a

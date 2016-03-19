@@ -13,28 +13,30 @@ if (navigator.geolocation) {
   );
 }
 else {
-  $( "#main-container" ).prepend( "<span class='alert'>Selaimesi ei valitettavasti tue paikannusta</span>" );
+  $( "#error-container" ).prepend( "<div>Selaimesi ei valitettavasti tue paikannusta.</div>" );
   console.log("navigator.geolocation not supported");
 }
 
 function handlePosition(position) {
-//	e.g. ... conversionwrapper.php?n=60&e=25
+  if (position.coords.accuracy > 500)
+  {
+    $( "#error-container" ).prepend( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
+  }
+
   $.getJSON(
     "http://192.168.56.10/suomen-linnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude,
     updatePage
   );
+  console.log(position);
+  console.log(position.coords);
 }
 
 function updatePage(data)
 {
-    //data is a JSON string
+    // Coordinates is a JSON string
     console.log(data);
 
     $( "#main-container" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
-
-    var griN = data.N.toString();
-    var griE = data.E.toString();
-    $( "#pagetitle" ).html( "Ruutu " + griN.substring(0, 3) + ":" + griN.substring(0, 3) ); // TODO: load metadata class 
 }
 
 function displayError(error) {
@@ -44,7 +46,7 @@ function displayError(error) {
     3: 'Sijainnin hakeminen kesti liian kauan. Tarkista että puhelimesi GPS on päällä.'
   };
   console.log(errors[error.code]);
-  $( "#main-container" ).prepend( "<span class='alert'>" +  errors[error.code] + "</span>" );
+  $( "#error-container" ).prepend("<div>" + errors[error.code] + "</div>");
 }
 
 /*

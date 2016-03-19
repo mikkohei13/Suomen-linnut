@@ -54,6 +54,7 @@ MUST (ennen julkaisua)
 - Kuvien croppaus samanmuotoisiksi
 
 SHOULD
+- Helsp (slide in: http://jsfiddle.net/bR6Fs/)
 - Logging
 - Yksinkertaista CSS
 - Taustatiedot (selvitystapa, ruudut)

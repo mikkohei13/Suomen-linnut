@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/app.css">
@@ -28,9 +28,17 @@
                         <img src="images/cygcyg.svg" id="logo" alt="">
                         Suomen linnut
                     </a>
-                    <a id="helplink" href="#" title="Help & background information">(?)</a>
+                    <a id="helplink" href="#" title="Apua ja taustatietoa">(?)</a>
                 </h2>
             </header>
+        </div>
+
+
+        <div id="help-container">
+        PLACEHOLDER
+        </div>
+
+        <div id="error-container">
         </div>
 
         <div id="main-container">
