@@ -35,6 +35,7 @@
 
         <div id="main-container">
 
+            <?php include "credits.php"; ?>
 
         </div> <!-- #main-container -->
 
