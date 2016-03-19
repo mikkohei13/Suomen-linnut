@@ -82,6 +82,8 @@
 
 <p>Tiainen, Juha; Mikkola-Roos, Markku; Below, Antti; Jukarainen, Aili; Lehikoinen, Aleksi; Lehtiniemi, Teemu; Pessa, Jorma; Rajasärkkä, Ari; Rintala, Jukka; Sirkiä, Päivi; Valkama, Jari 2015: <strong>Suomen lintujen uhanalaisuus 2015</strong>. <a href="http://hdl.handle.net/10138/159435 ISBN 978-952-11-4552-0">http://hdl.handle.net/10138/159435 ISBN 978-952-11-4552-0</a></p>
 
+<p><strong><a href="credits/">Kuvien tekijätiedot</a></strong></p>
+
 <p id="credits">Toteutus: <strong>Mikko Heikkinen / <a href="http://www.biomi.org/">biomi.org</a></strong> | <a href="https://github.com/mikkohei13/Suomen-linnut">Code on Github</a></p>
 
 
