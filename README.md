@@ -48,13 +48,16 @@ DONE
 - Ruudun metatietojen lataaminen
 - Handle coordinates outside Finland
 - Datalähteet
-
-MUST (ennen julkaisua)
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
 
+MUST (ennen julkaisua)
+- Kuvien credits
+
 SHOULD
-- Helsp (slide in: http://jsfiddle.net/bR6Fs/)
+- Help (slide in: http://jsfiddle.net/bR6Fs/)
+	- harvinaisuus, harvalukuisuus, uhanalaisuus?
+	- ruutu, selvitystapa, linkki lisätietoihin
 - Logging
 - Yksinkertaista CSS
 - Taustatiedot (selvitystapa, ruudut)
