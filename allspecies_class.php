@@ -93,7 +93,7 @@ class Allspecies {
     }
     $activityCategory =
 
-    $localHtml = "<p>Tällä alueella <strong>pesii " . $this->gridSpeciesCountArr[4] . "-" . $speciesTotal . " lintulajia</strong>, joista <strong>" . $endangeredTotal . " on uhanalaisia</strong>. Alueen linnusto tunnetaan " . $activityCategoryName . ". (" . $this->gridArr['grid']['kunta'] . ", " . $this->gridArr['grid']['ruudunNimi'] . ", ruutu " . $this->grid . ")</p>";
+    $localHtml = "<p>Tällä alueella (" . $this->gridArr['grid']['kunta'] . ", " . $this->gridArr['grid']['ruudunNimi'] . ") <strong>pesii " . $this->gridSpeciesCountArr[4] . "-" . $speciesTotal . " lintulajia</strong>, joista <strong>" . $endangeredTotal . " on uhanalaisia</strong>. Alueen linnusto tunnetaan " . $activityCategoryName . ". (ruutu " . $this->grid . ")</p>";
 
 //    echo "<pre>";    print_r($this->gridArr['grid']);    echo "</pre>"; // debug
 
