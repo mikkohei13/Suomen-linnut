@@ -20,7 +20,13 @@
 
         <div id="header-container">
             <header class="wrapper clearfix">
-                <h2 class="title">Suomen linnut</h2>
+                <h2 class="title">
+                    <a href="./" id="titlelink">
+                        <img src="images/cygcyg.svg" id="logo" alt="">
+                        Suomen linnut
+                    </a>
+                    <a id="helplink" href="#" title="Help & background information">(?)</a>
+                </h2>
             </header>
         </div>
 

@@ -1,12 +1,36 @@
 
 body
 {
-	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-div
+div 
 {
-	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+#header-container
+{
+	background-color: #1976D2;
+	color: #fff;
+}
+
+#header-container h2
+{
+	margin: 0;
+}
+
+#header-container a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+#logo
+{
+	width: 40px;
+	height: 40px;
+	margin: -10px 5px -3px 0px;
 }
 
 .alert
