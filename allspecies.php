@@ -12,7 +12,7 @@ echo $allspecies->getMetaHtml();
 echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 
 	echo "
-	<div id='varmat'>
+	<div id='varmat' class='status-container'>
 	<h2>Varmasti pesivät</h2>
 	<p>Näiden lajien munapesä tai vastakuoriutuneet poikaset on löydetty alueelta.</p>
 	";
@@ -22,7 +22,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 	";
 
 	echo "
-	<div id='todennakoiset'>
+	<div id='todennakoiset' class='status-container'>
 	<h2>Todennäköisesti pesivät</h2>
 	<p>Näistä lajeista on havaittu pesä mutta ei tiedetä onko pesää käytetty.</p>
 	";
@@ -32,7 +32,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 	";
 
 	echo "
-	<div id='mahdolliset'>
+	<div id='mahdolliset' class='status-container'>
 	<h2>Mahdollisesti pesivät</h2>
 	<p>Nämä lajit on havaittu alueella niille sopivassa pesimäympäristössä, mutta pesää tai poikasia ei ole löydetty.</p>
 	";

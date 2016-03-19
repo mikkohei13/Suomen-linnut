@@ -43,6 +43,13 @@ body
 	padding: 10px;
 }
 
+.status-container
+{
+	clear: both;
+ 	margin-bottom: 10px;
+ 	border-top: 4px solid #BBDEFB;
+}
+
 /* Temporarily hidden */
 #help-container,
 #helplink
