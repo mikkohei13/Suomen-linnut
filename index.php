@@ -56,7 +56,7 @@
 
         </div> <!-- #main-container -->
 
-        <div class="footer-container">
+        <div id="footer-container">
             <footer class="wrapper">
                 <h3>Tietolähteet</h3>
 
