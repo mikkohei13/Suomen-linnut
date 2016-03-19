@@ -30,11 +30,8 @@ Julkaiseminen
 -------------
 
 Ennen julkaisua
-- Kuvat
 - Google Analytics code
-- korjaa conversiowrapper:in URL main.js-tiedostossa
-- Luo griddata-hakemisto ja generoi sisältö
-- MUST-asiat alta
+- Vaihda oikeaksi conversiowrapper:in URL main.js-tiedostossa
 
 TODO & ideat
 ------------
@@ -50,9 +47,9 @@ DONE
 - Datalähteet
 - Ulkoasu
 - Kuvien croppaus samanmuotoisiksi
+- Kuvien credits
 
 MUST (ennen julkaisua)
-- Kuvien credits
 
 SHOULD
 - Help (slide in: http://jsfiddle.net/bR6Fs/)
