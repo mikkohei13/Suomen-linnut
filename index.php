@@ -25,7 +25,7 @@
             <header class="wrapper clearfix">
                 <h2 class="title">
                     <a href="./" id="titlelink">
-                        <img src="images/cygcyg.svg" id="logo" alt="">
+                        <img src="images/cygcyg.svg.php" id="logo" alt="">
                         Suomen linnut
                     </a>
                     <a id="helplink" href="#" title="Apua ja taustatietoa">(?)</a>

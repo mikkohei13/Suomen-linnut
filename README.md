@@ -49,14 +49,16 @@ DONE
 - Kuvien croppaus samanmuotoisiksi
 - Kuvien credits
 
-MUST (ennen julkaisua)
+MUST
+- Logging
+- Check GA code
+- Redirect -> www. ...
 
 SHOULD
 - Help (slide in: http://jsfiddle.net/bR6Fs/)
 	- harvinaisuus, harvalukuisuus, uhanalaisuus?
 	- ruutu, selvitystapa, linkki lisätietoihin
 - Missing images? Ansery, muut?
-- Logging
 - Yksinkertaista CSS
 - Taustatiedot (selvitystapa, ruudut)
 - Lajin tiedot modaaliin
