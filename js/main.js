@@ -15,16 +15,17 @@ function determineLocation(event)
         maximumAge: 10000 // ms
       }
     );
+    $( "#error-container" ).html( "<div>Sijaintiasi haetaan, odota hetki ole hyvä...</div>" );    
   }
   else {
-    $( "#error-container" ).prepend( "<div>Selaimesi ei valitettavasti tue paikannusta.</div>" );
+    $( "#error-container" ).html( "<div>Selaimesi ei valitettavasti tue paikannusta.</div>" );
     console.log("navigator.geolocation not supported");
   }
 
   function handlePosition(position) {
     if (position.coords.accuracy > 500)
     {
-      $( "#error-container" ).prepend( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
+      $( "#error-container" ).html( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
     }
 
     $.getJSON(
@@ -39,7 +40,8 @@ function determineLocation(event)
   {
       // Coordinates is a JSON string
       console.log(data);
-
+      console.log("Success!");
+      $( "#error-container" ).html("");
       $( "#main-container" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
   }
 
@@ -50,7 +52,7 @@ function determineLocation(event)
       3: 'Sijainnin hakeminen kesti liian kauan. Tarkista että puhelimesi GPS on päällä.'
     };
     console.log(errors[error.code]);
-    $( "#error-container" ).prepend("<div>" + errors[error.code] + "</div>");
+    $( "#error-container" ).html("<div>" + errors[error.code] + "</div>");
   }
 
   /*
