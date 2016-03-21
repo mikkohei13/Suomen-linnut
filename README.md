@@ -52,6 +52,10 @@ DONE
 
 MUST
 - Logging
+	- Time to get position
+	- Device
+	- Security in logger.php
+- Failure callback on coordinate conversion (+ logging)
 - Redirect -> www. ...
 
 SHOULD
@@ -107,16 +111,3 @@ Uhanalainen (vaarantunut) - uhanalaistumisen syynä tehometsätalous.
 Harvinainen, esiintyy vain pienellä osalla tutkimusruuduista.
 Harvalukuinen...
 
-Logging
--------
-
-Page logs
-- Grid accessed
-- Species accessed
-- UA
-
-Javascript logs
-- Position object
-- Time to get position
-- UA
-- Device

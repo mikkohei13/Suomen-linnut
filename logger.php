@@ -1,7 +1,5 @@
 <?php
 
-//$logString = $_POST[];
-
 // TODO: security
 $logString =  
 	$_POST['ip'] . "\t" . 
@@ -21,4 +19,4 @@ $logString =
 
 file_put_contents("logs/js-log.txt", ($logString . "\n"), FILE_APPEND);
 
-echo "Loggasin: $logString";
+echo "Logged data: $logString";

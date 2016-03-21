@@ -19,9 +19,8 @@ function determineLocation(event)
   }
   else {
     $( "#error-container" ).html( "<div>Selaimesi ei valitettavasti tue paikannusta.</div>" );
-    console.log("navigator.geolocation not supported");
+//    console.log("navigator.geolocation not supported");
 
-    // ABBA
     logData.error = "not supported";
     logger();
 
@@ -32,7 +31,6 @@ function determineLocation(event)
     {
       $( "#error-container" ).html( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
 
-      // ABBA +
       logData.error = "inaccurate";
     }
 
@@ -48,15 +46,13 @@ function determineLocation(event)
       updatePage
     );
 
-    console.log(position);
-    console.log(position.coords);
+//    console.log(position);
   }
 
   function updatePage(data)
   {
-      // Coordinates is a JSON string
-      console.log(data);
-      console.log("Success!");
+//      console.log(data);
+//      console.log("Success!");
 //      $( "#error-container" ).html(""); // Problem: clears accuracy information also
       $( "#main-container" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
 
@@ -72,10 +68,9 @@ function determineLocation(event)
       2: 'Sijaintia ei pystytty hakemaan. Siirry paikkaan, josta on esteettömämpi näkymä taivaalle.',
       3: 'Sijainnin hakeminen kesti liian kauan. Tarkista että puhelimesi GPS on päällä.'
     };
-    console.log(errors[error.code]);
+//    console.log(errors[error.code]);
     $( "#error-container" ).html("<div>" + errors[error.code] + "</div>");
 
-    // ABBA
     logData.error = "error " + error.code;
     logger();
   }
@@ -96,9 +91,7 @@ function logger()
   console.log(navigator);
   console.log(window);
 
-
   $.post( "logger.php", logData, function( loggerResponse ) {
     console.log(loggerResponse);
-    console.log("logging ended");
   });
 }
