@@ -3,6 +3,8 @@
 
 document.addEventListener("DOMContentLoaded", determineLocation);
 
+console.log(rootUrl);
+
 function determineLocation(event)
 {
   if (navigator.geolocation) {
@@ -42,7 +44,7 @@ function determineLocation(event)
 
     // TODO: failure callback?
     $.getJSON(
-      "http://192.168.56.10/suomen-linnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude,
+      (rootUrl + "conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude),
       updatePage
     );
 

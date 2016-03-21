@@ -97,8 +97,17 @@
         <script>
             var logData = { };
             <?php
-                echo "logData.datetime = " . date("YmdHis") . ";";
-                echo "logData.ip = \"" . $_SERVER['REMOTE_ADDR'] . "\";";
+                echo "logData.datetime = " . date("YmdHis") . ";\n";
+                echo "logData.ip = \"" . $_SERVER['REMOTE_ADDR'] . "\";\n";
+
+
+                // Automatic base url, https://gist.github.com/mikkohei13/9312936
+                $base_url = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
+                $base_url .= "://".$_SERVER['HTTP_HOST'];
+                $base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+
+                echo "var rootUrl = \"" . $base_url . "\";\n" // http://192.168.56.10/suomen-linnut/
+
             ?>
         </script>
         <script src="js/main.js"></script>
