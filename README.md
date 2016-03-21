@@ -30,11 +30,12 @@ Julkaiseminen
 -------------
 
 Ennen julkaisua
-- Google Analytics code
-- Vaihda oikeaksi conversiowrapper:in URL main.js-tiedostossa
+- Google Analytics code juuren alle
+- Loggerihakemiston luonti, nimi tiedostoon suomen-linnut.php juuren alle.
 
 TODO & ideat
 ------------
+
 DONE
 - Perus-geolocation
 - Virheilmojen käännös suomeksi
@@ -51,12 +52,14 @@ DONE
 - Check GA code
 - Logging
 - Security in logger.php
+- Säilytä ilmoitus epätarkasta paikannuksesta
 
 MUST
-- Advanced logging
-	- Time to get position
+-
 
 SHOULD
+- Advanced logging
+	- Time to get position
 - Redirect -> www. ...
 - What if coord conversion fails?
 - Help (slide in: http://jsfiddle.net/bR6Fs/)
