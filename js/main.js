@@ -15,7 +15,7 @@ function determineLocation(event)
         maximumAge: 10000 // ms
       }
     );
-    $( "#error-container" ).html( "<div>Sijaintiasi haetaan, odota hetki ole hyvä...</div>" );    
+    $( "#error-container" ).html( "<div>Sijaintiasi haetaan, odota hetki ole hyvä...</div>" );  
   }
   else {
     $( "#error-container" ).html( "<div>Selaimesi ei valitettavasti tue paikannusta.</div>" );
@@ -61,3 +61,9 @@ function determineLocation(event)
       3: 'Request timeout'
   */
 }
+
+var logData = {type:"Fiat", model:"500", color:"white"};
+$.post( "logger.php", logData, function( loggerResponse ) {
+  console.log(loggerResponse);
+  console.log("logging ended");
+});
