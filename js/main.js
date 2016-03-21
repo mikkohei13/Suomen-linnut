@@ -3,6 +3,9 @@
 
 document.addEventListener("DOMContentLoaded", determineLocation);
 
+var logData = { };
+
+
 function determineLocation(event)
 {
   if (navigator.geolocation) {
@@ -20,18 +23,34 @@ function determineLocation(event)
   else {
     $( "#error-container" ).html( "<div>Selaimesi ei valitettavasti tue paikannusta.</div>" );
     console.log("navigator.geolocation not supported");
+
+    // ABBA
+    logData.error = "not supported";
+    logger();
+
   }
 
   function handlePosition(position) {
     if (position.coords.accuracy > 500)
     {
       $( "#error-container" ).html( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
+
+      // ABBA +
+      logData.error = "inaccurate";
     }
 
+    logData.accuracy = position.coords.accuracy;
+    logData.altitude = position.coords.altitude;
+    logData.altitudeAccuracy = position.coords.altitudeAccuracy;
+    logData.latitude = position.coords.latitude;
+    logData.longitude = position.coords.longitude;
+
+    // TODO: failure callback?
     $.getJSON(
       "http://192.168.56.10/suomen-linnut/conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude,
       updatePage
     );
+
     console.log(position);
     console.log(position.coords);
   }
@@ -41,8 +60,13 @@ function determineLocation(event)
       // Coordinates is a JSON string
       console.log(data);
       console.log("Success!");
-      $( "#error-container" ).html("");
+//      $( "#error-container" ).html(""); // Problem: clears accuracy information also
       $( "#main-container" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
+
+      logData.N = data.N;
+      logData.E = data.E;
+      logData.error = "success";
+      logger();
   }
 
   function displayError(error) {
@@ -53,6 +77,10 @@ function determineLocation(event)
     };
     console.log(errors[error.code]);
     $( "#error-container" ).html("<div>" + errors[error.code] + "</div>");
+
+    // ABBA
+    logData.error = "error " + error.code;
+    logger();
   }
 
   /*
@@ -62,8 +90,10 @@ function determineLocation(event)
   */
 }
 
-var logData = {type:"Fiat", model:"500", color:"white"};
-$.post( "logger.php", logData, function( loggerResponse ) {
-  console.log(loggerResponse);
-  console.log("logging ended");
-});
+function logger()
+{
+  $.post( "logger.php", logData, function( loggerResponse ) {
+    console.log(loggerResponse);
+    console.log("logging ended");
+  });
+}
