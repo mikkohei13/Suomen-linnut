@@ -4,6 +4,7 @@
 document.addEventListener("DOMContentLoaded", determineLocation);
 
 var logData = { };
+logData.scriptSessionId = Math.ceil(Math.random() * 1000000);
 
 
 function determineLocation(event)
@@ -92,6 +93,14 @@ function determineLocation(event)
 
 function logger()
 {
+  logData.userAgent = navigator.userAgent;
+  logData.innerHeight = window.innerHeight;
+  logData.innerWidth = window.innerWidth;
+
+  console.log(navigator);
+  console.log(window);
+
+
   $.post( "logger.php", logData, function( loggerResponse ) {
     console.log(loggerResponse);
     console.log("logging ended");
