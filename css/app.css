@@ -39,7 +39,8 @@ body
 	padding: 10px;
 }
 
-#error-container div
+#error-container div,
+#message-container div
 {
 	background-color: #ffc;
 	padding: 10px;

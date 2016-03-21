@@ -31,7 +31,7 @@ function determineLocation(event)
   function handlePosition(position) {
     if (position.coords.accuracy > 500)
     {
-      $( "#error-container" ).html( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
+      $( "#message-container" ).html( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
 
       logData.error = "inaccurate";
     }
@@ -42,7 +42,6 @@ function determineLocation(event)
     logData.latitude = position.coords.latitude;
     logData.longitude = position.coords.longitude;
 
-    // TODO: failure callback?
     $.getJSON(
       (rootUrl + "conversionwrapper.php?n=" + position.coords.latitude + "&e=" + position.coords.longitude),
       updatePage
@@ -55,7 +54,7 @@ function determineLocation(event)
   {
 //      console.log(data);
 //      console.log("Success!");
-//      $( "#error-container" ).html(""); // Problem: clears accuracy information also
+      $( "#error-container" ).html("");
       $( "#main-container" ).load( "allspecies.php?grid=" + data.N + ":" + data.E );
 
       logData.N = data.N;

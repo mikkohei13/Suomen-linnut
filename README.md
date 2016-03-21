@@ -49,16 +49,16 @@ DONE
 - Kuvien croppaus samanmuotoisiksi
 - Kuvien credits
 - Check GA code
+- Logging
+- Security in logger.php
 
 MUST
-- Logging
+- Advanced logging
 	- Time to get position
-	- Device
-	- Security in logger.php
-- Failure callback on coordinate conversion (+ logging)
-- Redirect -> www. ...
 
 SHOULD
+- Redirect -> www. ...
+- What if coord conversion fails?
 - Help (slide in: http://jsfiddle.net/bR6Fs/)
 	- harvinaisuus, harvalukuisuus, uhanalaisuus?
 	- ruutu, selvitystapa, linkki lisätietoihin

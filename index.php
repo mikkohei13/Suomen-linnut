@@ -38,8 +38,8 @@
         PLACEHOLDER
         </div>
 
-        <div id="error-container">
-        </div>
+        <div id="error-container"></div>
+        <div id="message-container"></div>
 
         <div id="main-container">
 
