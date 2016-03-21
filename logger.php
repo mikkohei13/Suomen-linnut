@@ -1,5 +1,7 @@
 <?php
 
+require_once "../../suomen-linnut.php"; // e.g. $logDirectory = "logs-SECRETKEY";
+
 $logArray = Array();
 foreach ($_POST as $key => $value)
 {
@@ -23,6 +25,6 @@ $logString =
 	$logArray['innerHeight'] . "\t" .
 	" ";
 
-file_put_contents("logs/js-log.txt", ($logString . "\n"), FILE_APPEND);
+file_put_contents(($logDirectory . "/js-log.txt"), ($logString . "\n"), FILE_APPEND);
 
 echo "Logged data: $logString";
