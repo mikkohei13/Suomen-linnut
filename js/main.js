@@ -3,10 +3,6 @@
 
 document.addEventListener("DOMContentLoaded", determineLocation);
 
-var logData = { };
-logData.scriptSessionId = Math.ceil(Math.random() * 1000000);
-
-
 function determineLocation(event)
 {
   if (navigator.geolocation) {

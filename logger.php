@@ -4,7 +4,8 @@
 
 // TODO: security
 $logString =  
-	$_POST['scriptSessionId'] . "\t" . 
+	$_POST['ip'] . "\t" . 
+	$_POST['datetime'] . "\t" . 
 	$_POST['error'] . "\t" . 
 	$_POST['latitude'] . "\t" . 
 	$_POST['longitude'] . "\t" . 
@@ -14,8 +15,8 @@ $logString =
 	$_POST['altitude'] . "\t" . 
 	$_POST['altitudeAccuracy'] . "\t" .
 	$_POST['userAgent'] . "\t" .
-	$_POST['innerHeight'] . "\t" .
 	$_POST['innerWidth'] . "\t" .
+	$_POST['innerHeight'] . "\t" .
 	" ";
 
 file_put_contents("logs/js-log.txt", ($logString . "\n"), FILE_APPEND);

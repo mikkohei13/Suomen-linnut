@@ -94,6 +94,13 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+        <script>
+            var logData = { };
+            <?php
+                echo "logData.datetime = " . date("YmdHis") . ";";
+                echo "logData.ip = \"" . $_SERVER['REMOTE_ADDR'] . "\";";
+            ?>
+        </script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
