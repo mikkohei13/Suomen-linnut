@@ -46,6 +46,11 @@ body
 	padding: 10px;
 }
 
+.additional
+{
+	color: #999;
+}
+
 .status-container
 {
 	clear: both;
@@ -76,7 +81,7 @@ body
 	width: 200px;
 	height: 133px;
 	overflow: hidden;
-	background-color: #cfc;
+	background-color: #ccc;
 }
 
 .icon

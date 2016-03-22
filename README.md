@@ -55,7 +55,8 @@ DONE
 - Säilytä ilmoitus epätarkasta paikannuksesta
 
 MUST
--
+- Muuta sivuston nimi -> Kotiseudun linnut
+- Muuta tuotantoversion hakemiston nimi
 
 SHOULD
 - Advanced logging

@@ -1,9 +1,8 @@
 
+// Based on code by Ian Devlin
 // http://html5doctor.com/finding-your-position-with-geolocation/
 
 document.addEventListener("DOMContentLoaded", determineLocation);
-
-console.log(rootUrl);
 
 function determineLocation(event)
 {
@@ -17,7 +16,7 @@ function determineLocation(event)
         maximumAge: 10000 // ms
       }
     );
-    $( "#error-container" ).html( "<div>Sijaintiasi haetaan, odota hetki ole hyvä...</div>" );  
+    $( "#error-container" ).html( "<div>Sijaintiasi haetaan...</div>" );  
   }
   else {
     $( "#error-container" ).html( "<div>Selaimesi ei valitettavasti tue paikannusta.</div>" );
@@ -31,7 +30,7 @@ function determineLocation(event)
   function handlePosition(position) {
     if (position.coords.accuracy > 500)
     {
-      $( "#message-container" ).html( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! (virhesäde " + position.coords.accuracy + " m)</div>" );
+      $( "#message-container" ).html( "<div>Tarkkaa sijaintiasi ei saatu selville, joten ao. lintuluettelo ei välttämättä ole aivan oikealta alueelta. Jos käytät tietokonetta, kokeile mielummin älypuhelimella jossa on GPS! <span class='additional'>(virhesäde " + position.coords.accuracy + " m)</span></div>" );
 
       logData.error = "inaccurate";
     }
@@ -89,8 +88,8 @@ function logger()
   logData.innerHeight = window.innerHeight;
   logData.innerWidth = window.innerWidth;
 
-  console.log(navigator);
-  console.log(window);
+//  console.log(navigator);
+//  console.log(window);
 
   $.post( "logger.php", logData, function( loggerResponse ) {
     console.log(loggerResponse);

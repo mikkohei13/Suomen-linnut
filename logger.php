@@ -25,6 +25,15 @@ $logString =
 	$logArray['innerHeight'] . "\t" .
 	" ";
 
-file_put_contents(($logDirectory . "/js-log.txt"), ($logString . "\n"), FILE_APPEND);
+$logSuccess = file_put_contents(($logDirectory . "/js-log.txt"), ($logString . "\n"), FILE_APPEND);
 
-echo "Logged data: $logString";
+if ($logSuccess === FALSE)
+{
+//	echo "Logged data: $logString"; // debug
+	echo "Log failure";
+}
+else
+{
+//	echo "Logged data: $logString"; // debug
+	echo "Log success";
+}
