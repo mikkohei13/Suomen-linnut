@@ -54,9 +54,11 @@ DONE
 - Security in logger.php
 - Säilytä ilmoitus epätarkasta paikannuksesta
 - Muuta sivuston nimi -> Kotiseudun linnut
+- Muuta tuotantoversion hakemiston nimi
+- Ikonien toimivuus pienellä näytöllä (<400px)
 
 MUST
-- Muuta tuotantoversion hakemiston nimi
+- All done!
 
 SHOULD
 - Advanced logging
