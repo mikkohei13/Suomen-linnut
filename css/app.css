@@ -166,3 +166,22 @@ h2
 }
 
 
+
+@media only screen and (max-width: 400px) {
+
+	.species .icon
+	{
+		top: 87px;
+	}
+	.speciesImage
+	{
+		width: 150px;
+		height: 100px;
+	}
+	.speciesImage img
+	{
+		width: 150px;
+		height: 100px;
+	}
+
+}
