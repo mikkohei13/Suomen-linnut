@@ -59,11 +59,27 @@ body
 }
 
 /* Temporarily hidden */
-#help-container,
-#helplink
+#help-container
 {
 	display: none;
 }
+
+#helplink
+{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	padding: 3px;
+	font-weight: bold;
+	border: 2px solid white;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+
 
 .species
 {

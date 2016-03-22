@@ -28,7 +28,7 @@
                         <img src="images/cygcyg.svg.php" id="logo" alt="">
                         Kotiseudun linnut
                     </a>
-                    <a id="helplink" href="#" title="Apua ja taustatietoa">(?)</a>
+                    <a id="helplink" href="#" title="Apua ja taustatietoa">?</a>
                 </h2>
             </header>
         </div>

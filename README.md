@@ -53,9 +53,9 @@ DONE
 - Logging
 - Security in logger.php
 - Säilytä ilmoitus epätarkasta paikannuksesta
+- Muuta sivuston nimi -> Kotiseudun linnut
 
 MUST
-- Muuta sivuston nimi -> Kotiseudun linnut
 - Muuta tuotantoversion hakemiston nimi
 
 SHOULD
