@@ -9,6 +9,10 @@ body
 {
 	background-color: #1976D2;
 	color: #fff;
+	/*
+	position: fixed;
+	width: 100%;
+	*/
 }
 
 #header-container h2
