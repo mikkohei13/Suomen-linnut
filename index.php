@@ -35,7 +35,17 @@
 
 
         <div id="help-container">
-        PLACEHOLDER
+            <p>Tämä sivu hakee sijaintisi ja näyttää mitä lintuja ympärilläsi pesii. Linnustotiedot ovat peräisin Lintuatlashankkeesta, jossa koko Suomen linnusto kartoitettiin 10x10 km suuruisissa tutkimusruuduissa vuosina 2005-2010.</p>
+
+            <p>Erikoisemmat alueella pesivät lajit on merkitty ikoneilla:</p>
+            <p>
+            <img src='images/star-green.png' alt='harvalukuinen' title='harvalukuinen' class='icon greenstar'>Harvalukuinen: Suomessa pesää vain vähän tämän lajin edustajia.<br />
+            <img src='images/star-blue.png' alt='harvinainen' title='harvinainen' class='icon bluestar'>Harvinainen: Laji elää Suomessa vain harvoilla paikoilla tai pienellä alueella.<br />
+            <img src='images/cr.png' alt='äärimmäisen uhanalainen' title='äärimmäisen uhanalainen' class='icon cr'>Äärimmäisen uhanalainen laji (Critically Endangered)<br />
+            <img src='images/en.png' alt='erittäin uhanalainen' title='erittäin uhanalainen' class='icon en'>Erittäin uhanalainen laji (ENdangered)<br />
+            <img src='images/vu.png' alt='vaarantunut' title='vaarantunut' class='icon vu'>Vaarantunut uhanalainen laji (VUlnerable)
+            </p>
+
         </div>
 
         <div id="error-container"></div>
