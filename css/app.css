@@ -58,11 +58,13 @@ body
  	border-top: 4px solid #BBDEFB;
 }
 
-/* Temporarily hidden */
 #help-container
 {
 	display: none;
+	background-color: #4CAF50; /* Material design */
 }
+
+
 
 #helplink
 {

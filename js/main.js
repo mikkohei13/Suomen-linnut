@@ -95,3 +95,13 @@ function logger()
     console.log(loggerResponse);
   });
 }
+
+// Help link
+$( "#helplink" ).click(function() {
+
+  $( "#help-container" ).slideToggle( 200, function() {
+    console.log("Help slided open");
+  });
+
+
+});
