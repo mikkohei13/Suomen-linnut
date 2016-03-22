@@ -3,6 +3,8 @@ HTML5 site that retrieves the user's location and displays which birds are nesti
 
 Sivusto, joka hakee käyttäjän sijainnin ja näyttää mitä lintuja hänen ympärillään pesii. Lajeista näytetään valokuva sekä tietoja levinneisyydestä, runsaudesta ja uhanalaisuudesta. Levinneisyysdata perustuu Suomen 3. lintuatlaksen avoimeen aineistoon.
 
+Tuotantoversio: http://www.biomi.org/kotiseudun-linnut/
+
 
 Toimintalogiikka
 ----------------
