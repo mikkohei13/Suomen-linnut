@@ -58,11 +58,13 @@ DONE
 - Muuta sivuston nimi -> Kotiseudun linnut
 - Muuta tuotantoversion hakemiston nimi
 - Ikonien toimivuus pienellä näytöllä (<400px)
+- FB ja Twitter share buttons
 
 MUST
 - All done!
 
 SHOULD
+- Poistra kovakoodattu osoite Facebook-napin koodista
 - Advanced logging
 	- Time to get position
 - Redirect -> www. ...
@@ -78,7 +80,7 @@ SHOULD
 - Parempi ulkoasu
 - Manuaalinen lista ruuduista, miten?
 - Kartta ruudusta (simppeli)
-- os selain ei tue paikannusta -> ja linkki manuaaliseen listaan
+- Jos selain ei tue paikannusta -> ja linkki manuaaliseen listaan
 
 NICE
 - Huomaa siirtymisen uudelle ruudulle

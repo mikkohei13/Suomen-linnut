@@ -38,9 +38,15 @@ body
 #header-container,
 #help-container,
 #main-container,
+#share-container,
 #footer-container
 {
 	padding: 10px;
+}
+
+#share-container
+{
+	background-color: #8CED90;
 }
 
 #error-container div,
