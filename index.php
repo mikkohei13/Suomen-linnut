@@ -53,7 +53,7 @@
 
         <div id="main-container">
         </div> <!-- #main-container -->
-        
+
         <div id="share-container">
             <div class="fb-share-button" data-href="http://www.biomi.org/kotiseudun-linnut/" data-layout="button_count"></div>
             <a href="https://twitter.com/share" class="twitter-share-button" data-lang="fi" data-dnt="true">Twiittaa</a>
@@ -68,7 +68,7 @@
 
                 <h4>Levinneisyystiedot</h4>
 
-                <p><strong>Suomen 1., 2. ja 3. lintuatlaksen tulokset</strong>. Luonnontieteellinen keskusmuseo Luomus, Helsingin yliopisto. Käyttö <a href="http://creativecommons.org/licenses/by/4.0/deed.fi">Creative Commons Nimeä 4.0</a> -lisenssillä.</p>
+                <p><strong>Suomen 3. lintuatlaksen tulokset</strong>. Luonnontieteellinen keskusmuseo Luomus, Helsingin yliopisto. Käyttö <a href="http://creativecommons.org/licenses/by/4.0/deed.fi">Creative Commons Nimeä 4.0</a> -lisenssillä.</p>
 
                 <p>Valkama, Jari, Vepsäläinen, Ville & Lehikoinen, Aleksi 2011: <strong>Suomen III Lintuatlas</strong>. – Luonnontieteellinen keskusmuseo ja ympäristöministeriö. <a href="http://atlas3.lintuatlas.fi">http://atlas3.lintuatlas.fi</a> (viitattu 24.1.2015) ISBN 978-952-10-6918-5</p>
 
