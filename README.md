@@ -59,12 +59,14 @@ DONE
 - Muuta tuotantoversion hakemiston nimi
 - Ikonien toimivuus pienellä näytöllä (<400px)
 - FB ja Twitter share buttons
+- Varmuustasojen paremmat kuvaukset
 
 MUST
-- All done!
+- Toimivuus omalla kännykällä - ja muilla levyksillä
+- Tarkista share-elementin toimivuus kännykällä
 
 SHOULD
-- Poistra kovakoodattu osoite Facebook-napin koodista
+- Poista kovakoodattu osoite Facebook-napin koodista
 - Advanced logging
 	- Time to get position
 - Redirect -> www. ...
@@ -81,6 +83,7 @@ SHOULD
 - Manuaalinen lista ruuduista, miten?
 - Kartta ruudusta (simppeli)
 - Jos selain ei tue paikannusta -> ja linkki manuaaliseen listaan
+- Ruudun vainta kartalta
 
 NICE
 - Huomaa siirtymisen uudelle ruudulle

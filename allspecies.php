@@ -14,7 +14,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 	echo "
 	<div id='varmat' class='status-container'>
 	<h2>Varmasti pesivät</h2>
-	<p>Näiden lajien munapesä tai vastakuoriutuneet poikaset on löydetty alueelta.</p>
+	<p>Alueelta on löydetty näiden lajien pesä tai poikasia.</p>
 	";
 	echo $allspecies->getSpeciesHtmlForPV(4);
 	echo "
@@ -24,7 +24,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 	echo "
 	<div id='todennakoiset' class='status-container'>
 	<h2>Todennäköisesti pesivät</h2>
-	<p>Näistä lajeista on havaittu pesä mutta ei tiedetä onko pesää käytetty.</p>
+	<p>Nämä lajit on havaittu useasti sopivassa pesimäympäristössä, nähty rakentamassa pesää tai muuten havaittu käyttäytyvän pesintään viittaavalla tavalla.</p>
 	";
 	echo $allspecies->getSpeciesHtmlForPV(3);
 	echo "
@@ -34,7 +34,7 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 	echo "
 	<div id='mahdolliset' class='status-container'>
 	<h2>Mahdollisesti pesivät</h2>
-	<p>Nämä lajit on havaittu alueella niille sopivassa pesimäympäristössä, mutta pesää tai poikasia ei ole löydetty.</p>
+	<p>Nämä lajit on havaittu niille sopivassa pesimäympäristössä.</p>
 	";
 	echo $allspecies->getSpeciesHtmlForPV(2);
 	echo "
