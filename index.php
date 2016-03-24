@@ -35,11 +35,11 @@
 
 
         <div id="help-container">
-            <p>Tämä sivu hakee sijaintisi ja näyttää mitä lintuja ympärilläsi pesii. Linnustotiedot ovat peräisin Lintuatlashankkeesta, jossa koko Suomen linnusto kartoitettiin 10x10 km suuruisissa tutkimusruuduissa vuosina 2005-2010.</p>
+            <p>Tämä sivu hakee sijaintisi ja näyttää mitä lintuja ympärilläsi pesii. Linnustotiedot ovat peräisin <a href="http://atlas3.lintuatlas.fi/" target="_blank">Lintuatlas</a>-hankkeesta, jossa koko Suomen linnusto kartoitettiin 10x10 km suuruisissa tutkimusruuduissa vuosina 2005-2010.</p>
 
             <p>Erikoisemmat alueella pesivät lajit on merkitty ikoneilla:</p>
             <p>
-            <img src='images/star-green.png' alt='harvalukuinen' title='harvalukuinen' class='icon greenstar'> Harvalukuinen: Suomessa pesää vain vähän tämän lajin edustajia.<br />
+            <img src='images/star-green.png' alt='harvalukuinen' title='harvalukuinen' class='icon greenstar'> Harvalukuinen: Suomessa pesii vain vähän tämän lajin edustajia.<br />
             <img src='images/star-blue.png' alt='harvinainen' title='harvinainen' class='icon bluestar'> Harvinainen: Laji elää Suomessa vain harvoilla paikoilla tai pienellä alueella.<br />
             <img src='images/cr.png' alt='äärimmäisen uhanalainen' title='äärimmäisen uhanalainen' class='icon cr'> Äärimmäisen uhanalainen laji (Critically Endangered)<br />
             <img src='images/en.png' alt='erittäin uhanalainen' title='erittäin uhanalainen' class='icon en'> Erittäin uhanalainen laji (ENdangered)<br />
@@ -52,32 +52,8 @@
         <div id="message-container"></div>
 
         <div id="main-container">
-
-<!--
-                <article>
-                    <header>
-                        <h1>article header h1</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
-                    </header>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                    </section>
-                    <footer>
-                        <h3>article footer h3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-                    </footer>
-                </article>
--->
-
-
-
-
         </div> <!-- #main-container -->
+        
         <div id="share-container">
             <div class="fb-share-button" data-href="http://www.biomi.org/kotiseudun-linnut/" data-layout="button_count"></div>
             <a href="https://twitter.com/share" class="twitter-share-button" data-lang="fi" data-dnt="true">Twiittaa</a>
