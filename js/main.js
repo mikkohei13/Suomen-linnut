@@ -12,8 +12,8 @@ function determineLocation(event)
       displayError,
       {
         enableHighAccuracy: false,
-        timeout: 10000, // ms
-        maximumAge: 10000 // ms
+        timeout: 30000, // ms
+        maximumAge: 60000 // ms
       }
     );
     $( "#error-container" ).html( "<div>Sijaintiasi haetaan...</div>" );  
@@ -64,9 +64,9 @@ function determineLocation(event)
 
   function displayError(error) {
     var errors = { 
-      1: 'Olet kieltänyt paikannustiedon käytön. Salli se ja yritä uudelleen.',
+      1: 'Olet kieltänyt paikannustiedon käytön selaimessa tai käyttöjärjestelmässä. Salli se ja yritä uudelleen.',
       2: 'Sijaintia ei pystytty hakemaan. Siirry paikkaan, josta on esteettömämpi näkymä taivaalle.',
-      3: 'Sijainnin hakeminen kesti liian kauan. Tarkista että puhelimesi GPS on päällä.'
+      3: 'Sijainnin hakeminen kesti liian kauan. Tarkista että puhelimesi paikannustoiminto on päällä.'
     };
 //    console.log(errors[error.code]);
     $( "#error-container" ).html("<div>" + errors[error.code] + "</div>");
