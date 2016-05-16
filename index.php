@@ -78,6 +78,9 @@
 
                 <p><strong><a href="credits/">Kuvien tekijätiedot</a></strong></p>
 
+                <h3>Tietosuoja</h3>
+                <p>Palvelu tallettaa käyttäjän sijainnin ja selaimen ominaisuuksia, mutta ei henkilö- tai tunnistetietoja. Palvelun käyttöä seurataan <a href="https://www.google.com/policies/privacy/partners/">Google Analytics:in</a> ja evästeiden avulla. Voit halutessasi estää evästeiden käytön selaimestasi.</p>
+
                 <p id="credits">Toteutus: <strong>Mikko Heikkinen / <a href="http://www.biomi.org/">biomi.org</a></strong> | <a href="https://github.com/mikkohei13/Suomen-linnut">Code on Github</a></p>
 
 
@@ -92,7 +95,7 @@
             var logData = { };
             <?php
                 echo "logData.datetime = " . date("YmdHis") . ";\n";
-                echo "logData.ip = \"" . $_SERVER['REMOTE_ADDR'] . "\";\n";
+                echo "logData.ip = \"" . sha1($_SERVER['REMOTE_ADDR']) . "\";\n"; // hashing hides the real IP address
 
 
                 // Automatic base url, https://gist.github.com/mikkohei13/9312936

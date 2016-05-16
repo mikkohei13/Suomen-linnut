@@ -8,7 +8,6 @@ foreach ($_POST as $key => $value)
 	$logArray[$key] = htmlspecialchars($value);
 }
 
-// TODO: security
 $logString =  
 	$logArray['ip'] . "\t" . 
 	$logArray['datetime'] . "\t" . 
