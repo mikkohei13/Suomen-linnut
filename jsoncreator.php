@@ -2,6 +2,13 @@
 header('Content-Type: text/html; charset=utf-8');
 echo "<pre>";
 
+require_once "../../suomen-linnut.php";
+if ($_GET['secret'] != $secret)
+{
+	exit("secret parameter needed");
+}
+
+
 $data = Array();
 
 // ------------------------------------------
