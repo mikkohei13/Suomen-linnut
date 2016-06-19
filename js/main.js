@@ -11,9 +11,9 @@ function determineLocation(event)
       handlePosition, 
       displayError,
       {
-        enableHighAccuracy: false,
-        timeout: 30000, // ms
-        maximumAge: 60000 // ms
+        enableHighAccuracy: true,
+        timeout: 60000, // ms
+        maximumAge: 30000 // ms
       }
     );
     $( "#error-container" ).html( "<div>Sijaintiasi haetaan...</div>" );  
