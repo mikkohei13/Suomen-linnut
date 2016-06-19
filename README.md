@@ -62,10 +62,11 @@ DONE
 - Varmuustasojen paremmat kuvaukset
 
 MUST
-- Toimivuus omalla kännykällä - ja muilla levyksillä
-- Tarkista share-elementin toimivuus kännykällä
+- Kuvaajan tiedot modaaliin
 
 SHOULD
+- Toimivuus omalla kännykällä - ja muilla levyksillä
+- Tarkista share-elementin toimivuus kännykällä
 - Poista kovakoodattu osoite Facebook-napin koodista
 - Advanced logging
 	- Time to get position

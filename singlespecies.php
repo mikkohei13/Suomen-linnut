@@ -90,6 +90,7 @@ class Singlespecies {
     $this->html .= "Suomen " . $this->singleSpeciesDataArr['atlas']['ruudutYhtJarjestys'] . ". laajimmalle levinnyt lintulaji.<br />";
     $this->html .= "</p>";
 
+    $this->html .= "<p id='photocredits'><a href='credits/'>Valokuvaajien tiedot</p>";
 
     $this->html .= "</div>\n";
 
