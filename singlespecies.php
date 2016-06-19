@@ -10,6 +10,7 @@ $singlespecies = new Singlespecies();
 class Singlespecies {
 
   var $abbr = "";
+  var $html = "";
   var $singleSpeciesDataArr = Array();
 
   function __construct()
@@ -57,7 +58,38 @@ class Singlespecies {
 
   function createHTML()
   {
+    $this->html .= "<div id='singlespecies'>\n";
+    $this->html .= $this->getImageHtml($this->singleSpeciesDataArr['sci']);
+    $this->html .= "<h4>" . $this->singleSpeciesDataArr['fi'] . "</h4>\n";
+    $this->html .= "<h5>" . $this->singleSpeciesDataArr['sci'] . "</h5>\n";
 
+    if ("CR" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
+    {
+      $this->html .= "<p id='uhex cr uhanalainen'>Äärimmäisen uhanalainen</p>\n";
+    }
+    elseif ("EN" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
+    {
+      $this->html .= "<p id='uhex en uhanalainen'>Erittäinen uhanalainen</p>\n";
+    }
+    elseif ("VU" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
+    {
+      $this->html .= "<p id='uhex vu uhanalainen'>Vaarantunut</p>\n";
+    }
+    elseif ("NT" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
+    {
+      $this->html .= "<p id='uhex nt'>Silmälläpidettävä</p>\n";
+    }    
+    else
+    {
+      $this->html .= "<p id='uhex lc'>Ei uhanalainen</p>\n";
+    }
+
+
+
+
+    $this->html .= "</div>\n";
+
+    echo $this->html;
   }
 
   // Returns image HTML for a species
