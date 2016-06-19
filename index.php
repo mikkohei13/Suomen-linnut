@@ -127,7 +127,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <?php include_once "../../googleanalytics.html"; ?>
+        <?php include_once "../../googleanalytics.php"; ?>
 
     </body>
 </html>
