@@ -87,7 +87,7 @@ header('Content-Type: text/html; charset=utf-8');
                 <h3>Tietosuoja</h3>
                 <p>Palvelu tallettaa käyttäjän sijainnin ja selaimen ominaisuuksia, mutta ei henkilö- tai tunnistetietoja. Palvelun käyttöä seurataan <a href="https://www.google.com/policies/privacy/partners/">Google Analytics:in</a> ja evästeiden avulla. Voit halutessasi estää evästeiden käytön selaimestasi.</p>
 
-                <p id="credits">Toteutus: <strong>Mikko Heikkinen / <a href="http://www.biomi.org/">biomi.org</a></strong> | <a href="https://github.com/mikkohei13/Suomen-linnut">Code on Github</a></p>
+                <p id="credits">Toteutus: <strong>Mikko Heikkinen / <a href="http://www.biomi.org/">biomi.org</a></strong> | <a href="https://github.com/mikkohei13/Suomen-linnut">Code on Github</a> | <a href="/retkelle/tietosuojaseloste/">Tietosuojaseloste</a></p>
 
 
 
