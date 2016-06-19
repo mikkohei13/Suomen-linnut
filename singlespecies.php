@@ -23,14 +23,13 @@ class Singlespecies {
     {
       exit("Virheellinen lyhenne");
     }
-    echo "täällä"; // debug
 
     // Get data
     $this->getSpeciesData();
 
     $this->createHTML();
 
-    print_r ($this->singleSpeciesDataArr); // debug
+//    print_r ($this->singleSpeciesDataArr); // debug
 
   }
 
