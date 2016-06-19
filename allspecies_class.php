@@ -134,7 +134,7 @@ class Allspecies {
       $localHtml .= $this->getImageHtml($abbr, $sci);
     }
     $localHtml .= $this->getIconsHtml($abbr);
-    $localHtml .= "  <h4 id='h4$abbr'>$fi</h4>\n";
+    $localHtml .= "  <h4 id='h4$abbr'><a href='singlespecies.php?abbr=$abbr'>$fi</a></h4>\n";
     $localHtml .= "</div>\n\n";
 
     @$this->speciesHtmlArr[$pvluokka] .= $localHtml;
