@@ -61,7 +61,7 @@ class Singlespecies {
     $this->html .= "<div id='singlespecies'>\n";
     $this->html .= $this->getImageHtml($this->singleSpeciesDataArr['sci']);
     $this->html .= "<h4>" . $this->singleSpeciesDataArr['fi'] . "</h4>\n";
-    $this->html .= "<h5>" . $this->singleSpeciesDataArr['sci'] . "</h5>\n";
+    $this->html .= "<h5><em>" . $this->singleSpeciesDataArr['sci'] . "</em> | " . $this->singleSpeciesDataArr['sv'] . " | " . $this->singleSpeciesDataArr['en'] . "</h5>\n";
 
     if ("CR" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
     {
