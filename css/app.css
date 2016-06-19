@@ -113,6 +113,11 @@ body
 	background-color: #ccc;
 }
 
+.largeSpeciesImage img
+{
+	width: 100%;
+}
+
 .icon
 {
 	width: 25px;

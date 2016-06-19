@@ -57,7 +57,7 @@ class Singlespecies {
 
   function createHTML()
   {
-    $this->html .= "<div id='singlespecies'>\n";
+    $this->html .= "<div id='singlespecies' class='modal'>\n";
     $this->html .= $this->getImageHtml($this->singleSpeciesDataArr['sci']);
     $this->html .= "<h4>" . $this->singleSpeciesDataArr['fi'] . "</h4>\n";
     $this->html .= "<h5><em>" . $this->singleSpeciesDataArr['sci'] . "</em> | " . $this->singleSpeciesDataArr['sv'] . " | " . $this->singleSpeciesDataArr['en'] . "</h5>\n";
@@ -100,7 +100,7 @@ class Singlespecies {
   function getImageHtml($sci)
   {
     $imageUrl = "images/species/800/" . $sci . ".jpg";
-    return "  <span class='speciesImage'><img src='$imageUrl' alt='' /></span>\n";
+    return "  <span class='largeSpeciesImage'><img src='$imageUrl' alt='' /></span>\n";
   }
 
 

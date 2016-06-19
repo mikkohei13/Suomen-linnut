@@ -96,6 +96,8 @@ header('Content-Type: text/html; charset=utf-8');
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="js/vendor/jquery.modal.css" type="text/css" media="screen" />
 
         <script>
             var logData = { };

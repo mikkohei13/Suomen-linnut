@@ -105,3 +105,12 @@ $( "#helplink" ).click(function() {
 
 
 });
+
+// Modal
+$('.ajax-modal').click(function(event) {
+  event.preventDefault();
+  $.get(this.href, function(html) {
+    $(html).appendTo('body').modal();
+  });
+});
+
