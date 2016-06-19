@@ -41,7 +41,6 @@ echo "<div class=\"main wrapper clearfix\" id=\"content\">";
 	</div>
 	";
 
-
 echo "</div> <!-- #content -->";
 
 

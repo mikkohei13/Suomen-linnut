@@ -172,6 +172,11 @@ h2
 	background-color: #1976D2;
 }
 
+#seealso
+{
+	clear: both;
+	font-weight: bold;
+}
 
 
 @media only screen and (max-width: 400px) {

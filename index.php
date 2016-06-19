@@ -62,6 +62,8 @@ header('Content-Type: text/html; charset=utf-8');
             <div class="fb-share-button" data-href="http://www.biomi.org/kotiseudun-linnut/" data-layout="button_count"></div>
             <a href="https://twitter.com/share" class="twitter-share-button" data-lang="fi" data-dnt="true">Twiittaa</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <p id="seealso"><a href="/retkelle/">Katso tästä lähimmät lintutornit</a></p>
+
         </div>
 
         <div id="footer-container">
