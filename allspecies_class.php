@@ -155,7 +155,7 @@ class Allspecies {
     */
     {
       $imageUrl = "images/species/200/" . $sci . ".jpg";
-      return "  <span class='speciesImage'><img src='$imageUrl' alt='' /></span>\n";
+      return "  <span class='speciesImage'><a href='singlespecies.php?abbr=$abbr' class='ajax-modal' rel='modal:open'><img src='$imageUrl' alt='' /></a></span>\n";
     }
   }
 

@@ -85,9 +85,9 @@ class Singlespecies {
 
     $this->html .= "<p id='atlas'>Lintuatlaksen mukaan:<br />";
     $this->html .= "Pesiviä pareja keskimäärin " . $this->singleSpeciesDataArr['atlas']['paritKa'] . ", eli on ";
-    $this->html .= "Suomen " . $this->singleSpeciesDataArr['atlas']['paritKaJarjestys'] . ". runsaslukuisin lintulaji<br />";
+    $this->html .= "Suomen " . $this->singleSpeciesDataArr['atlas']['paritKaJarjestys'] . ". runsaslukuisin lintulaji.<br />";
     $this->html .= "Pesii enintään " . $this->singleSpeciesDataArr['atlas']['ruudutYht'] . " ruudussa, eli on ";
-    $this->html .= "Suomen " . $this->singleSpeciesDataArr['atlas']['ruudutYhtJarjestys'] . ". laajimmalle levinnyt lintulaji<br />";
+    $this->html .= "Suomen " . $this->singleSpeciesDataArr['atlas']['ruudutYhtJarjestys'] . ". laajimmalle levinnyt lintulaji.<br />";
     $this->html .= "</p>";
 
 
