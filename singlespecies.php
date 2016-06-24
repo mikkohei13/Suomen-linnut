@@ -104,13 +104,66 @@ class Singlespecies {
         "</a>, " .
         "<a href='" . $this->singleSpeciesImageDataArr['url'] . "'>" .
         $this->singleSpeciesImageDataArr['name'] .
-        "</a>
-
-    </p>";
+        "</a>, " .
+        $this->returnLicenseName()
+        .
+    "</p>";
 
     $this->html .= "</div>\n";
 
     echo $this->html;
+  }
+
+  function returnLicenseName()
+  {
+    $licenseUrl = $this->singleSpeciesImageDataArr['license'];
+    switch ($licenseUrl) {
+      case 'http://creativecommons.org/licenses/by-nc-nd/2.0/':
+        $licenseName = "CC BY NC ND 2.0";
+        break;
+      case 'http://creativecommons.org/licenses/by-nc-sa/3.0/':
+        $licenseName = "CC BY NC SA 3.0";
+        break;
+      case 'http://creativecommons.org/licenses/by-nc/2.0/':
+        $licenseName = "CC BY NC 2.0";
+        break;
+      case 'http://creativecommons.org/licenses/by-sa/2.0/':
+        $licenseName = "CC BY SA 2.0";
+        break;
+      case 'http://creativecommons.org/licenses/by-sa/2.0/de/deed.en':
+        $licenseName = "CC BY SA 2.0 de";
+        break;
+      case 'http://creativecommons.org/licenses/by-sa/2.5/':
+        $licenseName = "CC BY SA 2.5";
+        break;
+      case 'http://creativecommons.org/licenses/by-sa/2.5/se/deed.en':
+        $licenseName = "CC BY SA 2.5 se";
+        break;
+      case 'http://creativecommons.org/licenses/by-sa/3.0/':
+        $licenseName = "CC BY SA 3.0";
+        break;
+      case 'http://creativecommons.org/licenses/by/2.0/':
+        $licenseName = "CC BY 2.0";
+        break;
+      case 'http://creativecommons.org/licenses/by/3.0/':
+        $licenseName = "CC BY 3.0";
+        break;
+      case 'http://creativecommons.org/licenses/by-sa/3.0/':
+        $licenseName = "CC BY SA 3.0";
+        break;
+      case 'http://creativecommons.org/licenses/by-nc-sa/2.0/':
+        $licenseName = "CC BY NC SA 2.0";
+        break;
+      case 'http://fi.wikipedia.org/wiki/Public_domain':
+        $licenseName = "Public domain";
+        break;
+      default:
+        $licenseName = $licenseUrl;
+        break;
+    }
+
+    return "<a href='" . $licenseUrl . "'>" . $licenseName . "</a>";
+
   }
 
 
