@@ -60,9 +60,10 @@ DONE
 - Ikonien toimivuus pienellä näytöllä (<400px)
 - FB ja Twitter share buttons
 - Varmuustasojen paremmat kuvaukset
+- Kuvaajan tiedot modaaliin
+- Modaalin tyylit
 
 MUST
-- Kuvaajan tiedot modaaliin
 
 SHOULD
 - Toimivuus omalla kännykällä - ja muilla levyksillä
@@ -78,12 +79,10 @@ SHOULD
 - Missing images? Ansery, muut?
 - Yksinkertaista CSS
 - Taustatiedot (selvitystapa, ruudut)
-- Lajin tiedot modaaliin
 - Lajien välillä liikkuminen (prev, next) ko. ruudun alueella
-- Parempi ulkoasu
 - Manuaalinen lista ruuduista, miten?
 - Kartta ruudusta (simppeli)
-- Jos selain ei tue paikannusta -> ja linkki manuaaliseen listaan
+- Jos selain ei tue paikannusta -> linkki manuaaliseen listaan
 - Ruudun vainta kartalta
 
 NICE
