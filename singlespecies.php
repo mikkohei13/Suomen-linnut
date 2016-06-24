@@ -99,9 +99,13 @@ class Singlespecies {
     $this->html .= "</p>";
 
     $this->html .= "<p id='photocredits'>Kuva: " .
-        "<a href='" . $this->singleSpeciesImageDataArr['authorUrl'] . "'>" .
-        $this->singleSpeciesImageDataArr['author']
-        . "</a>
+        "<a href='" . $this->singleSpeciesImageDataArr['authorUrl'] . "'>" . 
+        $this->singleSpeciesImageDataArr['author'] .
+        "</a>, " .
+        "<a href='" . $this->singleSpeciesImageDataArr['url'] . "'>" .
+        $this->singleSpeciesImageDataArr['name'] .
+        "</a>
+
     </p>";
 
     $this->html .= "</div>\n";
