@@ -72,23 +72,23 @@ class Singlespecies {
 
     if ("CR" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
     {
-      $this->html .= "<p id='uhex cr uhanalainen'>Äärimmäisen uhanalainen</p>\n";
+      $this->html .= "<p class='uhex cr uhanalainen'>Äärimmäisen uhanalainen</p>\n";
     }
     elseif ("EN" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
     {
-      $this->html .= "<p id='uhex en uhanalainen'>Erittäinen uhanalainen</p>\n";
+      $this->html .= "<p class='uhex en uhanalainen'>Erittäinen uhanalainen</p>\n";
     }
     elseif ("VU" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
     {
-      $this->html .= "<p id='uhex vu uhanalainen'>Vaarantunut</p>\n";
+      $this->html .= "<p class='uhex vu uhanalainen'>Vaarantunut</p>\n";
     }
     elseif ("NT" == $this->singleSpeciesDataArr['uhex']['luokka2015'])
     {
-      $this->html .= "<p id='uhex nt'>Silmälläpidettävä</p>\n";
+      $this->html .= "<p class='uhex nt'>Silmälläpidettävä</p>\n";
     }    
     else
     {
-      $this->html .= "<p id='uhex lc'>Ei uhanalainen</p>\n";
+      $this->html .= "<p class='uhex lc'>Ei uhanalainen</p>\n";
     }
 
     $this->html .= "<p id='atlas'>Lintuatlaksen mukaan:<br />";
