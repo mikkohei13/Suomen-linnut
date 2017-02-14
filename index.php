@@ -1,5 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
+//$cacheBuster = "?v=" . rand(0, 100000);
+$cacheBuster = "?v=" . "6"; // Manual versioning
 ?>
 
 <!doctype html>
@@ -10,13 +12,13 @@ header('Content-Type: text/html; charset=utf-8');
         <title>Kotiseudun linnut</title>
         <meta name="description" content="Tutustu mitä lintuja koti- tai mökkiseudullasi esiintyy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <meta name="theme-color" content="#1976D2">
 
-        <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic' rel='stylesheet'>
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/app.css<?php echo $cacheBuster; ?>">
 
 
         <!--[if lt IE 9]>
@@ -87,10 +89,20 @@ header('Content-Type: text/html; charset=utf-8');
                 <p><strong><a href="credits/">Kuvien tekijätiedot</a></strong></p>
 
                 <h3>Tietosuoja</h3>
-                <p>Palvelu tallettaa käyttäjän sijainnin ja selaimen ominaisuuksia, mutta ei henkilötietoja. Palvelun käyttöä seurataan <a href="https://www.google.com/policies/privacy/partners/">Google Analytics:in</a> ja evästeiden avulla. Voit halutessasi estää evästeiden käytön selaimestasi.</p>
+                <p>Palvelu tallettaa käyttäjän sijainnin ja selaimen ominaisuuksia, mutta ei henkilötietoja. Palvelun käyttöä seurataan <a href="https://www.google.com/policies/privacy/partners/">Google Analytics:in</a> ja evästeiden avulla. Voit halutessasi estää evästeiden käytön selaimestasi. <a href="/retkelle/tietosuojaseloste/">Tietosuojaseloste</a></p>
 
-                <p id="credits">Toteutus: <strong>Mikko Heikkinen / <a href="http://www.biomi.org/">biomi.org</a></strong> | <a href="https://github.com/mikkohei13/Suomen-linnut">Code on Github</a> | <a href="/retkelle/tietosuojaseloste/">Tietosuojaseloste</a></p>
-
+                <div id="credits">
+                    <p>
+                        <a href="https://www.biomi.org/">
+                            <img src="images/biomi-kotka-asymm.png" alt="" />
+                            <br />
+                            Mikko Heikkinen / biomi.org
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/mikkohei13/Suomen-linnut">Code on Github</a>
+                    </p>
+                </div>
 
 
             </footer>
@@ -117,7 +129,7 @@ header('Content-Type: text/html; charset=utf-8');
 
             ?>
         </script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js<?php echo $cacheBuster; ?>"></script>
 
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
